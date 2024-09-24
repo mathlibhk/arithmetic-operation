@@ -1,0 +1,3065 @@
+\documentclass[12pt]{article}
+%\usepackage[UTF8]{ctex}
+\usepackage[utf8]{inputenc}
+\setlength{\parindent}{0pt}
+\usepackage{graphicx} % Required for inserting images
+\usepackage[export]{adjustbox}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{gensymb}
+\usepackage{mathrsfs}
+\usepackage{mathtools}
+\usepackage{newtxtext}
+%\usepackage[cmintegrals]{newtxmath}
+\usepackage{array}
+\usepackage[a4paper, portrait, margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+\usepackage{siunitx}
+\usepackage{ifthen}
+\setlist[enumerate]{wide=0pt, widest=100, leftmargin=2em, labelsep=*}
+
+\fancypagestyle{plain}{
+\fancyhead[L]{\fontsize{10pt}{10pt}\selectfont DSE Math}
+\fancyhead[C]{\fontsize{10pt}{10pt}\selectfont}
+\fancyhead[R]{\fontsize{10pt}{10pt}\selectfont Arithmetic Operation (QType1 Random 1000)}
+\fancyfoot[L]{\fontsize{10pt}{10pt}\selectfont Jason Au · i@lib.hk}
+\fancyfoot[C]{\fontsize{10pt}{10pt}\selectfont\thepage}
+\fancyfoot[R]{\fontsize{10pt}{10pt}\selectfont 2024-09-24}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\fontsize{10pt}{10pt}\selectfont DSE Math}
+\fancyhead[C]{\fontsize{10pt}{10pt}\selectfont}
+\fancyhead[R]{\fontsize{10pt}{10pt}\selectfont Arithmetic Operation (QType1 Random 1000)}
+\fancyfoot[L]{\fontsize{10pt}{10pt}\selectfont Jason Au · i@lib.hk}
+\fancyfoot[C]{\fontsize{10pt}{10pt}\selectfont\thepage}
+\fancyfoot[R]{\fontsize{10pt}{10pt}\selectfont 2024-09-24}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcommand{\hideSource}{1}    % 1 = hide, 0 = show
+\newcommand{\hideAns}{0}
+\newcommand{\hide}[2]{
+    \ifthenelse{\equal{#1}{1}} % if \hideXXX == 1
+    {}                         % then hide XXX
+    {#2}                       % otherwise show XXX
+}
+
+\begin{document}
+
+\textbf{Arithmetic Operation (QType1 Random 1000)}
+
+\begin{enumerate}
+
+\item $6-3\times\dfrac{6}{3}\div\left(-7-3\right)\div\dfrac{3}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{161}{25}$}}
+
+\item $-1-6\div\dfrac{4}{9}\div\left(8+2\right)\times\dfrac{4}{3-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-163}{55}$}}
+
+\item $-8+4\div\dfrac{9}{6}\times\left(1-2\right)\div\dfrac{4}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-176}{15}$}}
+
+\item $-6+5\times\dfrac{5}{9}\div\left(-2+1\right)\times\dfrac{2}{2-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-628}{63}$}}
+
+\item $1+3\div0.6\times\left(1+3\right)\times\dfrac{2}{3+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{87}{7}$}}
+
+\item $-9-7\div\dfrac{7}{9}\div\left(6+1\right)\div\dfrac{3}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-57}{5}$}}
+
+\item $-6-3\div1.25\times\left(0-2\right)\times\dfrac{5}{1-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $34$}}
+
+\item $8+4\div\dfrac{6}{3}\times\left(9-1\right)\div\dfrac{3}{5+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{584}{15}$}}
+
+\item $-2+9\times0.25\times\left(-9-2\right)\div\dfrac{4}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1169}{40}$}}
+
+\item $-7+9\div0.8\div\left(3+2\right)\times\dfrac{4}{1+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1}{5}$}}
+
+\item $-9+8\times0.75\times\left(7+2\right)\div\dfrac{3}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{207}{5}$}}
+
+\item $-8+1\div1.5\times\left(7+3\right)\times\dfrac{2}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-22}{9}$}}
+
+\item $2+8\div0.4\times\left(1+2\right)\div\dfrac{2}{4+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $140$}}
+
+\item $3-8\times0.75\times\left(4+2\right)\times\dfrac{1}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-9}{2}$}}
+
+\item $8-9\div0.8\times\left(-7+2\right)\div\dfrac{2}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{167}{4}$}}
+
+\item $0-2\times1.25\div\left(1-2\right)\times\dfrac{3}{5+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{30}{23}$}}
+
+\item $-3-2\div\dfrac{7}{6}\div\left(6-1\right)\div\dfrac{1}{2-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-18}{5}$}}
+
+\item $-3+3\div\dfrac{4}{9}\div\left(-2-3\right)\times\dfrac{3}{3-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-663}{140}$}}
+
+\item $-1+5\times\dfrac{5}{9}\times\left(-3+1\right)\times\dfrac{1}{4+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-371}{171}$}}
+
+\item $2-5\div\dfrac{3}{9}\div\left(-2+7\right)\div\dfrac{4}{2-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{17}{16}$}}
+
+\item $-8+9\times0.25\div\left(-5-1\right)\times\dfrac{3}{2-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-493}{56}$}}
+
+\item $9+9\div\dfrac{9}{7}\times\left(-6-3\right)\times\dfrac{5}{3-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $-171$}}
+
+\item $-2-9\times\dfrac{6}{5}\times\left(0-2\right)\times\dfrac{1}{5+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{182}{125}$}}
+
+\item $-9+6\div\dfrac{9}{6}\div\left(-8-3\right)\div\dfrac{3}{2+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-310}{33}$}}
+
+\item $-1-1\times0.2\times\left(-1+3\right)\times\dfrac{3}{2-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-9}{5}$}}
+
+\item $-3-2\div\dfrac{2}{3}\div\left(-8+2\right)\div\dfrac{3}{5-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-20}{9}$}}
+
+\item $8-6\div\dfrac{4}{3}\times\left(6+2\right)\div\dfrac{3}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $-49$}}
+
+\item $8+8\times1.25\div\left(-5-1\right)\times\dfrac{4}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{214}{33}$}}
+
+\item $-2-8\div0.75\times\left(-7+2\right)\times\dfrac{3}{1-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $398$}}
+
+\item $0+6\div\dfrac{7}{4}\times\left(-8-2\right)\div\dfrac{2}{1+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-216}{7}$}}
+
+\item $0+1\div0.4\times\left(9+1\right)\times\dfrac{5}{3+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{100}{3}$}}
+
+\item $9-9\times0.2\times\left(5+1\right)\times\dfrac{2}{2-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-99}{5}$}}
+
+\item $-9-3\div\dfrac{6}{5}\times\left(-4+1\right)\div\dfrac{5}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-15}{4}$}}
+
+\item $-9-4\times0.6\div\left(9+1\right)\div\dfrac{3}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1149}{125}$}}
+
+\item $5+1\times0.8\div\left(-9-2\right)\times\dfrac{5}{4+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{487}{99}$}}
+
+\item $1-7\times1.75\div\left(8+2\right)\div\dfrac{3}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-233}{600}$}}
+
+\item $-4-9\times1.5\div\left(-7+2\right)\times\dfrac{2}{3-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-112}{55}$}}
+
+\item $1-2\div1.25\div\left(5-1\right)\times\dfrac{3}{4-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{41}{65}$}}
+
+\item $-7+2\div\dfrac{8}{2}\times\left(2-3\right)\div\dfrac{5}{3-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-287}{40}$}}
+
+\item $-9-4\times1.5\div\left(-6-3\right)\times\dfrac{5}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-164}{21}$}}
+
+\item $-9+1\div\dfrac{2}{6}\times\left(1-1\right)\div\dfrac{1}{4-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $-9$}}
+
+\item $1+5\times1.25\div\left(8-3\right)\times\dfrac{5}{1+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{149}{24}$}}
+
+\item $0-1\div\dfrac{5}{8}\times\left(5-2\right)\div\dfrac{5}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-576}{125}$}}
+
+\item $-6-5\div0.4\div\left(8-1\right)\div\dfrac{2}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-897}{112}$}}
+
+\item $-6-4\times\dfrac{3}{9}\times\left(3+1\right)\times\dfrac{3}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-62}{7}$}}
+
+\item $2-4\div0.4\times\left(-8-2\right)\times\dfrac{1}{2+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{522}{11}$}}
+
+\item $0-5\times0.25\div\left(2-3\right)\div\dfrac{5}{3-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{11}{16}$}}
+
+\item $-4-4\div\dfrac{7}{2}\div\left(5-1\right)\times\dfrac{2}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-608}{147}$}}
+
+\item $-8-1\div\dfrac{9}{7}\times\left(0+1\right)\div\dfrac{5}{5+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-811}{90}$}}
+
+\item $-2+6\div0.4\times\left(7+1\right)\times\dfrac{5}{1+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{994}{3}$}}
+
+\item $-7+3\div0.6\div\left(2-3\right)\div\dfrac{4}{4-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-167}{16}$}}
+
+\item $5-3\times\dfrac{3}{5}\times\left(-3-7\right)\div\dfrac{4}{1-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{43}{5}$}}
+
+\item $3+9\times\dfrac{9}{8}\times\left(1-3\right)\div\dfrac{1}{4+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-867}{8}$}}
+
+\item $-6-6\times\dfrac{7}{9}\times\left(-5-3\right)\div\dfrac{1}{5+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{598}{3}$}}
+
+\item $-1+8\times\dfrac{6}{7}\div\left(-8-3\right)\times\dfrac{1}{4-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-92}{77}$}}
+
+\item $3+2\div0.2\times\left(3-2\right)\times\dfrac{4}{3-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{239}{13}$}}
+
+\item $7-5\div0.5\times\left(5-1\right)\times\dfrac{3}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-347}{19}$}}
+
+\item $7-4\div1.5\div\left(9-3\right)\div\dfrac{3}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{287}{45}$}}
+
+\item $-6+2\times1.25\div\left(-4+2\right)\times\dfrac{3}{1-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-49}{4}$}}
+
+\item $9-6\times0.75\div\left(8-2\right)\times\dfrac{4}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{57}{7}$}}
+
+\item $1-1\div\dfrac{3}{7}\times\left(6+3\right)\times\dfrac{5}{3-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $-41$}}
+
+\item $-9+1\times0.2\times\left(-5+3\right)\div\dfrac{3}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-237}{25}$}}
+
+\item $-8-9\times0.75\times\left(9-3\right)\div\dfrac{5}{3-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-686}{25}$}}
+
+\item $9+2\div\dfrac{3}{7}\times\left(-3-1\right)\div\dfrac{2}{5-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $-26$}}
+
+\item $9+9\times1.5\div\left(-4-2\right)\times\dfrac{5}{2+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{243}{52}$}}
+
+\item $-3-2\times\dfrac{4}{8}\div\left(9-2\right)\div\dfrac{1}{2-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-114}{35}$}}
+
+\item $3-3\times1.25\times\left(-3-2\right)\times\dfrac{3}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1257}{44}$}}
+
+\item $-8+2\times0.75\div\left(-4-2\right)\div\dfrac{4}{5-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-663}{80}$}}
+
+\item $-8+6\times\dfrac{4}{2}\times\left(-7+2\right)\div\dfrac{1}{4+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $-293$}}
+
+\item $-6+5\div\dfrac{8}{5}\div\left(6-1\right)\div\dfrac{1}{1+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-167}{32}$}}
+
+\item $6-6\div\dfrac{5}{2}\div\left(9+3\right)\times\dfrac{2}{3+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{382}{65}$}}
+
+\item $1+7\div1.75\div\left(-3+2\right)\times\dfrac{5}{5-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-77}{23}$}}
+
+\item $-9-6\times\dfrac{7}{4}\div\left(-7-3\right)\div\dfrac{1}{1-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-699}{80}$}}
+
+\item $-5-4\times0.25\times\left(-4-1\right)\div\dfrac{3}{2+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-5}{4}$}}
+
+\item $-8-8\times\dfrac{6}{7}\times\left(9+2\right)\times\dfrac{5}{1-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-4456}{7}$}}
+
+\item $9-1\div\dfrac{4}{2}\times\left(6-3\right)\times\dfrac{4}{1+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{9}{2}$}}
+
+\item $-4+8\div\dfrac{3}{6}\times\left(-5+1\right)\times\dfrac{4}{1-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $-644$}}
+
+\item $-2-9\div0.75\div\left(2-1\right)\div\dfrac{4}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-58}{5}$}}
+
+\item $9+6\div\dfrac{4}{8}\div\left(-8-1\right)\div\dfrac{5}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{197}{25}$}}
+
+\item $-9-9\div0.25\times\left(1-1\right)\div\dfrac{4}{4-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-9$}}
+
+\item $2+5\div\dfrac{2}{8}\times\left(-1+2\right)\times\dfrac{1}{4+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{146}{23}$}}
+
+\item $0-4\div0.6\times\left(6-3\right)\div\dfrac{2}{3-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-70}{3}$}}
+
+\item $3-2\div0.2\times\left(8-2\right)\div\dfrac{5}{2-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $-15$}}
+
+\item $0+4\times0.25\times\left(-7-2\right)\times\dfrac{1}{3-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-45}{13}$}}
+
+\item $-7+7\div1.25\times\left(1-2\right)\times\dfrac{5}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-77}{6}$}}
+
+\item $4+2\times0.8\times\left(-4+3\right)\div\dfrac{2}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{4}{25}$}}
+
+\item $8-7\times1.75\times\left(0+2\right)\div\dfrac{4}{5+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-871}{32}$}}
+
+\item $-8+7\times1.25\div\left(-4-3\right)\times\dfrac{3}{4-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-119}{13}$}}
+
+\item $1-8\times\dfrac{5}{9}\times\left(4-2\right)\times\dfrac{1}{5+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-131}{189}$}}
+
+\item $5+1\div\dfrac{7}{3}\div\left(8-1\right)\times\dfrac{5}{5+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1237}{245}$}}
+
+\item $-5-5\div0.8\times\left(-4-1\right)\div\dfrac{3}{3-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{215}{12}$}}
+
+\item $-2+2\div\dfrac{9}{2}\div\left(7-2\right)\div\dfrac{3}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-52}{27}$}}
+
+\item $1-1\times0.5\div\left(5+1\right)\times\dfrac{3}{1+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{27}{32}$}}
+
+\item $-7+6\div0.6\div\left(-5+3\right)\div\dfrac{2}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-23}{2}$}}
+
+\item $-8-8\times\dfrac{4}{7}\div\left(6+3\right)\times\dfrac{4}{4-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-3784}{441}$}}
+
+\item $8-5\times1.25\times\left(-1+7\right)\div\dfrac{1}{2-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $-42$}}
+
+\item $3-8\times0.6\times\left(-1-9\right)\times\dfrac{5}{1+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $195$}}
+
+\item $-7-1\div0.4\times\left(-5-3\right)\times\dfrac{2}{3-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{109}{13}$}}
+
+\item $-1-6\div\dfrac{9}{3}\div\left(-4-3\right)\times\dfrac{2}{4-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-89}{105}$}}
+
+\item $-3+7\times\dfrac{8}{4}\times\left(3-1\right)\times\dfrac{1}{4-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{85}{9}$}}
+
+\item $-6-1\times\dfrac{7}{3}\div\left(9-1\right)\times\dfrac{1}{3-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-367}{60}$}}
+
+\item $-8-7\times\dfrac{4}{2}\times\left(3+2\right)\times\dfrac{3}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-58$}}
+
+\item $7-9\times\dfrac{5}{3}\times\left(-9-3\right)\times\dfrac{5}{4-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $257$}}
+
+\item $7+5\div1.25\div\left(4-2\right)\times\dfrac{1}{2-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{33}{4}$}}
+
+\item $-9+5\times\dfrac{4}{3}\div\left(-3-6\right)\div\dfrac{2}{3+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-571}{54}$}}
+
+\item $4+6\div0.6\times\left(8+2\right)\div\dfrac{2}{3+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $174$}}
+
+\item $-7-4\times\dfrac{8}{3}\div\left(-3-1\right)\div\dfrac{5}{3-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-29}{5}$}}
+
+\item $3-2\times\dfrac{5}{3}\times\left(7-3\right)\times\dfrac{5}{4-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-419}{27}$}}
+
+\item $-6+1\div0.75\div\left(9-2\right)\times\dfrac{1}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1376}{231}$}}
+
+\item $4+3\times0.6\div\left(-7-2\right)\times\dfrac{1}{1-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{11}{3}$}}
+
+\item $-2-9\times\dfrac{9}{3}\times\left(8+1\right)\div\dfrac{3}{4+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1873}{5}$}}
+
+\item $7-2\times0.2\times\left(4-2\right)\div\dfrac{2}{4+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{53}{10}$}}
+
+\item $-2-8\times\dfrac{4}{3}\times\left(6+1\right)\times\dfrac{4}{2+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $-114$}}
+
+\item $-8+7\times1.75\times\left(-1+2\right)\times\dfrac{5}{5-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{319}{52}$}}
+
+\item $-9+4\times0.4\times\left(-7+1\right)\div\dfrac{1}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-753}{25}$}}
+
+\item $-1+5\div0.6\div\left(6-2\right)\times\dfrac{1}{2-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{22}{3}$}}
+
+\item $7-1\div0.4\times\left(5+2\right)\div\dfrac{2}{4+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-553}{16}$}}
+
+\item $-3+2\times1.75\div\left(7-3\right)\div\dfrac{2}{4+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-9}{10}$}}
+
+\item $1-2\div1.25\div\left(7+1\right)\times\dfrac{4}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{9}{11}$}}
+
+\item $3+6\div\dfrac{3}{5}\times\left(8+1\right)\div\dfrac{3}{1+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $45$}}
+
+\item $7+4\div\dfrac{2}{9}\div\left(7-3\right)\times\dfrac{5}{1+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $25$}}
+
+\item $-9-8\times\dfrac{4}{6}\times\left(-5-3\right)\times\dfrac{5}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2633}{63}$}}
+
+\item $-4-9\div\dfrac{4}{2}\div\left(0-2\right)\div\dfrac{2}{2-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-53}{20}$}}
+
+\item $2-4\times\dfrac{3}{9}\times\left(-1-2\right)\times\dfrac{3}{4-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{22}{3}$}}
+
+\item $6+6\times0.8\times\left(4-3\right)\div\dfrac{3}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{262}{25}$}}
+
+\item $-2-2\times1.75\div\left(6-2\right)\div\dfrac{2}{5+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-349}{80}$}}
+
+\item $1+6\div1.25\times\left(-1-2\right)\div\dfrac{3}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-11$}}
+
+\item $-9-1\times0.2\div\left(-8-2\right)\times\dfrac{2}{5+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-5171}{575}$}}
+
+\item $7-1\times1.5\times\left(5+2\right)\div\dfrac{4}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{49}{40}$}}
+
+\item $5+4\div0.2\div\left(5-1\right)\times\dfrac{1}{2-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{55}{6}$}}
+
+\item $4-4\times0.4\times\left(2-2\right)\div\dfrac{3}{3-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $4$}}
+
+\item $-3+6\times0.25\div\left(6-3\right)\div\dfrac{1}{3+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-11}{10}$}}
+
+\item $2+1\times0.75\times\left(8+3\right)\div\dfrac{4}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{271}{20}$}}
+
+\item $-1+3\div1.75\times\left(6-2\right)\div\dfrac{4}{3+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{44}{7}$}}
+
+\item $6-1\div0.25\div\left(-3+2\right)\div\dfrac{5}{1+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $7$}}
+
+\item $-6+4\times\dfrac{6}{5}\times\left(-6-1\right)\div\dfrac{2}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2166}{25}$}}
+
+\item $-1-4\times\dfrac{7}{4}\div\left(-7-2\right)\times\dfrac{2}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-4}{9}$}}
+
+\item $7-6\div\dfrac{4}{9}\div\left(-4-1\right)\times\dfrac{2}{3-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{229}{25}$}}
+
+\item $-4-1\div1.75\times\left(8-3\right)\div\dfrac{1}{1+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-64}{7}$}}
+
+\item $-5-5\div0.4\times\left(-1+4\right)\div\dfrac{1}{3+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1165}{8}$}}
+
+\item $0+2\div0.2\div\left(2-1\right)\times\dfrac{1}{3-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $4$}}
+
+\item $-3-7\div0.5\times\left(6+3\right)\times\dfrac{2}{1-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-318$}}
+
+\item $9-3\div\dfrac{7}{8}\times\left(-1+6\right)\times\dfrac{4}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2337}{7}$}}
+
+\item $-1-6\div0.25\times\left(2-2\right)\times\dfrac{5}{3+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-1$}}
+
+\item $9+3\times0.6\times\left(8-1\right)\div\dfrac{2}{3+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1179}{40}$}}
+
+\item $-2+9\div0.8\times\left(6-1\right)\div\dfrac{1}{2-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{659}{8}$}}
+
+\item $-6+9\div\dfrac{5}{3}\times\left(-8+1\right)\times\dfrac{2}{1-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-597}{5}$}}
+
+\item $-9-8\div\dfrac{3}{9}\times\left(7+3\right)\times\dfrac{4}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-409$}}
+
+\item $-4-6\div\dfrac{9}{2}\div\left(-2+3\right)\times\dfrac{4}{3+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-116}{21}$}}
+
+\item $-8+4\div0.75\div\left(-1+2\right)\div\dfrac{1}{1-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-40}{9}$}}
+
+\item $-7-1\div\dfrac{2}{6}\times\left(-6-2\right)\div\dfrac{5}{2-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{41}{25}$}}
+
+\item $1+6\times\dfrac{2}{4}\times\left(-7+1\right)\div\dfrac{4}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-67}{5}$}}
+
+\item $1+5\times\dfrac{7}{3}\times\left(9-2\right)\div\dfrac{3}{4-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1733}{18}$}}
+
+\item $4+4\times\dfrac{6}{3}\div\left(4+1\right)\div\dfrac{1}{5-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{276}{25}$}}
+
+\item $-8+6\times\dfrac{6}{5}\times\left(7-1\right)\div\dfrac{2}{3+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $73$}}
+
+\item $0+7\times\dfrac{6}{7}\div\left(-9+1\right)\times\dfrac{2}{1+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-6}{5}$}}
+
+\item $5-3\times0.5\times\left(8+2\right)\times\dfrac{5}{1-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-95$}}
+
+\item $9-3\times1.5\div\left(-7+3\right)\div\dfrac{2}{4+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{747}{64}$}}
+
+\item $4+3\div1.25\times\left(-4-3\right)\times\dfrac{2}{4+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-332}{85}$}}
+
+\item $7-4\times\dfrac{5}{8}\times\left(-6+2\right)\div\dfrac{5}{4+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $16$}}
+
+\item $-5+4\times1.5\div\left(2+3\right)\div\dfrac{5}{3-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-22}{5}$}}
+
+\item $0+6\times\dfrac{8}{5}\times\left(-3-2\right)\div\dfrac{3}{1+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-96}{5}$}}
+
+\item $9-5\times0.75\div\left(1+2\right)\div\dfrac{5}{5-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{39}{5}$}}
+
+\item $5-4\div\dfrac{8}{2}\div\left(9+1\right)\times\dfrac{4}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{14}{3}$}}
+
+\item $5+1\div0.5\div\left(-5+3\right)\times\dfrac{5}{4-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{45}{13}$}}
+
+\item $-6+3\div0.5\div\left(-6-1\right)\times\dfrac{5}{1-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-92}{7}$}}
+
+\item $3+4\times1.75\times\left(-6+3\right)\times\dfrac{5}{2+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-291}{8}$}}
+
+\item $4-1\times0.4\times\left(-6+1\right)\div\dfrac{2}{2+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{13}{2}$}}
+
+\item $2-1\times0.8\div\left(6-2\right)\div\dfrac{4}{2-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{153}{80}$}}
+
+\item $-1-5\times\dfrac{7}{2}\div\left(4-1\right)\div\dfrac{5}{4-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-163}{30}$}}
+
+\item $-3+2\div\dfrac{8}{6}\times\left(1-3\right)\times\dfrac{2}{3-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-7$}}
+
+\item $7-9\div0.6\times\left(-6+1\right)\times\dfrac{4}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1333}{19}$}}
+
+\item $8-6\times0.6\div\left(5-1\right)\div\dfrac{1}{2+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{301}{50}$}}
+
+\item $-1+4\times0.2\times\left(8+3\right)\div\dfrac{1}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{899}{25}$}}
+
+\item $-2-4\times\dfrac{5}{4}\times\left(0+2\right)\div\dfrac{3}{1+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-22}{3}$}}
+
+\item $-4-9\times1.5\times\left(7+1\right)\times\dfrac{2}{2+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-308}{5}$}}
+
+\item $0+3\times\dfrac{9}{5}\div\left(9+2\right)\times\dfrac{3}{4-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{36}{55}$}}
+
+\item $9-5\div\dfrac{8}{9}\div\left(-2+3\right)\div\dfrac{2}{5-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-63}{16}$}}
+
+\item $5-4\div\dfrac{2}{7}\times\left(-4+1\right)\times\dfrac{3}{3-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $61$}}
+
+\item $1+4\div\dfrac{5}{9}\times\left(0+2\right)\times\dfrac{1}{3-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{37}{5}$}}
+
+\item $9+6\times\dfrac{2}{8}\times\left(-5-3\right)\div\dfrac{3}{1+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{21}{5}$}}
+
+\item $0-6\times0.2\times\left(-2-3\right)\times\dfrac{2}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{5}{2}$}}
+
+\item $7+3\times1.5\div\left(-7-2\right)\times\dfrac{5}{5+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{72}{11}$}}
+
+\item $-9+9\times\dfrac{8}{6}\times\left(6+3\right)\times\dfrac{5}{2+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $231$}}
+
+\item $-1+5\div\dfrac{3}{2}\times\left(9-3\right)\div\dfrac{3}{3+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{61}{3}$}}
+
+\item $9-4\div1.75\times\left(-9+3\right)\times\dfrac{1}{3+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{633}{49}$}}
+
+\item $-2-2\times0.4\div\left(-6+2\right)\div\dfrac{3}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-134}{75}$}}
+
+\item $-8+4\div0.25\div\left(-3+2\right)\times\dfrac{5}{2+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-424}{13}$}}
+
+\item $3-6\times0.8\times\left(3-1\right)\times\dfrac{1}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{3}{17}$}}
+
+\item $-8-7\div1.75\times\left(6-2\right)\times\dfrac{3}{3-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-248}{7}$}}
+
+\item $-8+3\div0.4\times\left(4+2\right)\times\dfrac{4}{5-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $32$}}
+
+\item $9-5\times1.5\times\left(-6-2\right)\times\dfrac{2}{3-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{699}{11}$}}
+
+\item $3+1\times0.8\div\left(-2+3\right)\times\dfrac{5}{2+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{31}{7}$}}
+
+\item $9+3\div\dfrac{4}{8}\times\left(-9+1\right)\times\dfrac{4}{2+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-229}{3}$}}
+
+\item $-6-6\div1.5\times\left(6-2\right)\times\dfrac{4}{5+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-482}{27}$}}
+
+\item $-5+4\div0.5\times\left(-1-7\right)\times\dfrac{1}{2+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-227}{7}$}}
+
+\item $-7+8\times0.25\times\left(-7+1\right)\times\dfrac{5}{4-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-419}{17}$}}
+
+\item $-4+7\times0.25\div\left(6+1\right)\div\dfrac{3}{1+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-181}{48}$}}
+
+\item $5-3\div0.8\div\left(2-1\right)\div\dfrac{5}{5+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{7}{8}$}}
+
+\item $-1+4\div0.6\div\left(7-1\right)\times\dfrac{2}{3+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{3}$}}
+
+\item $-7-2\times\dfrac{9}{2}\div\left(8-2\right)\div\dfrac{3}{4+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-73}{8}$}}
+
+\item $2-8\times\dfrac{2}{4}\div\left(-1-2\right)\times\dfrac{4}{3-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{118}{27}$}}
+
+\item $-6+7\times\dfrac{5}{9}\div\left(-3+1\right)\times\dfrac{1}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-283}{18}$}}
+
+\item $-9+4\times0.25\times\left(-3+1\right)\times\dfrac{2}{2-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $-12$}}
+
+\item $7-6\times0.8\div\left(-6+3\right)\times\dfrac{3}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{29}{3}$}}
+
+\item $-3+5\div0.25\times\left(9+2\right)\div\dfrac{3}{5+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1267}{3}$}}
+
+\item $-4-6\div\dfrac{8}{2}\times\left(2+3\right)\div\dfrac{2}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-49}{4}$}}
+
+\item $-1+5\div0.75\div\left(2-3\right)\div\dfrac{5}{2-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-17}{5}$}}
+
+\item $7-3\times\dfrac{9}{8}\times\left(6+2\right)\div\dfrac{1}{2-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-154}{5}$}}
+
+\item $3+3\times\dfrac{6}{4}\times\left(1+2\right)\times\dfrac{2}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{177}{14}$}}
+
+\item $-7+9\div0.2\div\left(-3-2\right)\times\dfrac{5}{5-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-139}{7}$}}
+
+\item $-4+7\div\dfrac{4}{6}\div\left(-6-1\right)\times\dfrac{3}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-157}{28}$}}
+
+\item $-3+5\div0.5\times\left(-2+1\right)\div\dfrac{4}{4+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-27}{2}$}}
+
+\item $-9-2\div\dfrac{7}{9}\times\left(0-3\right)\times\dfrac{1}{2+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-333}{49}$}}
+
+\item $-8+1\div\dfrac{2}{5}\div\left(-4-2\right)\times\dfrac{4}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-26}{3}$}}
+
+\item $8+5\div\dfrac{7}{3}\times\left(-3-6\right)\div\dfrac{3}{1-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{89}{28}$}}
+
+\item $-7-7\div\dfrac{3}{8}\div\left(-3+2\right)\times\dfrac{1}{3-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{35}{27}$}}
+
+\item $-1+9\div1.25\times\left(7-3\right)\times\dfrac{2}{1-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{379}{5}$}}
+
+\item $-7+8\times1.5\times\left(-7-1\right)\div\dfrac{2}{2+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-563}{5}$}}
+
+\item $-2-3\div0.4\div\left(0-1\right)\times\dfrac{5}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{44}{3}$}}
+
+\item $-4-9\times\dfrac{6}{7}\div\left(6+3\right)\times\dfrac{1}{1+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-220}{49}$}}
+
+\item $-7-2\times\dfrac{8}{2}\times\left(2-1\right)\div\dfrac{4}{3+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-29}{2}$}}
+
+\item $-4-6\times\dfrac{6}{4}\times\left(-5+3\right)\times\dfrac{5}{5-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{59}{4}$}}
+
+\item $-2+3\div\dfrac{8}{3}\div\left(-3-1\right)\div\dfrac{3}{5+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-5}{2}$}}
+
+\item $8+9\div0.4\times\left(-9+1\right)\times\dfrac{2}{5-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1304}{17}$}}
+
+\item $6+1\times\dfrac{7}{4}\div\left(-8-2\right)\div\dfrac{1}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{279}{50}$}}
+
+\item $7+1\times0.75\times\left(-8-3\right)\div\dfrac{3}{3+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-31}{16}$}}
+
+\item $-7+2\div0.2\times\left(7+1\right)\div\dfrac{5}{3+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{253}{5}$}}
+
+\item $4-8\times0.8\div\left(5+1\right)\times\dfrac{1}{3+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{92}{25}$}}
+
+\item $-4+1\times\dfrac{9}{7}\times\left(0-2\right)\times\dfrac{3}{3+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-40}{7}$}}
+
+\item $9+2\div1.25\times\left(-2+1\right)\div\dfrac{5}{3+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{197}{25}$}}
+
+\item $-1-1\times0.2\times\left(1-3\right)\times\dfrac{5}{3-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{5}$}}
+
+\item $8-6\times0.75\div\left(-4+3\right)\times\dfrac{5}{3+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{529}{38}$}}
+
+\item $1+8\times0.5\div\left(-6+2\right)\div\dfrac{3}{2+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2}{9}$}}
+
+\item $3+3\times\dfrac{2}{6}\div\left(2-1\right)\times\dfrac{5}{2-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $6$}}
+
+\item $-2+4\times0.2\div\left(-2+1\right)\times\dfrac{1}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-20}{9}$}}
+
+\item $1+5\times0.8\div\left(-2-1\right)\times\dfrac{4}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1}{21}$}}
+
+\item $-9+1\div\dfrac{3}{4}\div\left(-4-1\right)\div\dfrac{3}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-83}{9}$}}
+
+\item $-3-2\div\dfrac{2}{8}\times\left(0+2\right)\div\dfrac{3}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-47}{5}$}}
+
+\item $2-8\div\dfrac{8}{9}\div\left(-9-2\right)\times\dfrac{1}{2-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{115}{44}$}}
+
+\item $-1+6\times0.8\div\left(9+3\right)\times\dfrac{5}{1-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $4$}}
+
+\item $-3-3\times0.5\div\left(-4+1\right)\times\dfrac{3}{5+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-30}{11}$}}
+
+\item $-8-9\div\dfrac{4}{9}\div\left(-8-2\right)\times\dfrac{4}{1-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{49}{4}$}}
+
+\item $9-1\times0.5\times\left(5-1\right)\times\dfrac{2}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{53}{7}$}}
+
+\item $5+3\div\dfrac{3}{9}\times\left(3+3\right)\div\dfrac{1}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{511}{5}$}}
+
+\item $1-8\times\dfrac{9}{3}\times\left(-3-1\right)\times\dfrac{2}{3-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{779}{11}$}}
+
+\item $0+2\div\dfrac{9}{8}\div\left(-8+3\right)\times\dfrac{5}{1+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-10}{9}$}}
+
+\item $-3+2\div0.8\div\left(-1+3\right)\times\dfrac{3}{2+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-81}{52}$}}
+
+\item $-3-3\times\dfrac{3}{8}\times\left(-8+1\right)\div\dfrac{1}{5-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1329}{40}$}}
+
+\item $-9+3\times\dfrac{4}{5}\times\left(6-1\right)\div\dfrac{5}{4+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{27}{25}$}}
+
+\item $8+4\times\dfrac{4}{7}\times\left(6-2\right)\times\dfrac{5}{2+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{568}{21}$}}
+
+\item $-5-5\div0.5\div\left(9-2\right)\div\dfrac{4}{2+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-35}{6}$}}
+
+\item $-9+3\times0.8\div\left(-3-2\right)\div\dfrac{4}{2-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-459}{50}$}}
+
+\item $5+8\div0.2\times\left(-3-1\right)\times\dfrac{5}{3-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-3145}{11}$}}
+
+\item $8+5\div0.2\times\left(-4-1\right)\times\dfrac{2}{3+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-176}{3}$}}
+
+\item $3+5\div0.75\times\left(-5+3\right)\times\dfrac{1}{1+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-119}{27}$}}
+
+\item $4-6\div0.25\div\left(4+3\right)\div\dfrac{2}{3+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-17}{7}$}}
+
+\item $0+8\times\dfrac{3}{9}\div\left(-4+1\right)\times\dfrac{4}{3+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-160}{171}$}}
+
+\item $-5+1\div\dfrac{7}{2}\times\left(-9+1\right)\div\dfrac{3}{2+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-701}{105}$}}
+
+\item $-7-7\times\dfrac{5}{8}\times\left(-8+2\right)\div\dfrac{5}{2-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-49}{16}$}}
+
+\item $-7-4\times0.6\times\left(5-1\right)\div\dfrac{3}{5-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-87}{5}$}}
+
+\item $3-3\times\dfrac{2}{9}\div\left(-6+3\right)\div\dfrac{3}{2-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{28}{9}$}}
+
+\item $-1+4\times\dfrac{4}{2}\times\left(3+1\right)\times\dfrac{5}{4-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{781}{19}$}}
+
+\item $-3+1\div0.2\times\left(9+2\right)\times\dfrac{3}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{603}{19}$}}
+
+\item $-1+8\div\dfrac{7}{6}\times\left(7-2\right)\times\dfrac{4}{3+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{3721}{119}$}}
+
+\item $1-8\times\dfrac{2}{6}\times\left(-1-3\right)\times\dfrac{3}{5+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{187}{27}$}}
+
+\item $-8+2\times0.6\div\left(-8+2\right)\div\dfrac{2}{1-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-401}{50}$}}
+
+\item $-2+9\div1.25\div\left(2+3\right)\times\dfrac{1}{5+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-254}{145}$}}
+
+\item $-5-3\times\dfrac{7}{4}\times\left(7+2\right)\times\dfrac{3}{3+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-3175}{68}$}}
+
+\item $-1+7\div\dfrac{7}{6}\div\left(-5-1\right)\div\dfrac{4}{5-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-43}{20}$}}
+
+\item $-2+7\div1.75\times\left(4-3\right)\div\dfrac{4}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-4}{5}$}}
+
+\item $-4+3\div\dfrac{6}{4}\div\left(-9-3\right)\times\dfrac{2}{3-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-161}{39}$}}
+
+\item $8-3\times\dfrac{4}{5}\times\left(-7+2\right)\times\dfrac{3}{1+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{200}{7}$}}
+
+\item $-2+2\div\dfrac{7}{9}\times\left(-6-1\right)\div\dfrac{5}{3-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-284}{25}$}}
+
+\item $-8+5\times1.5\div\left(-6-1\right)\times\dfrac{4}{5-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1072}{119}$}}
+
+\item $4-9\times\dfrac{3}{6}\div\left(-9+3\right)\div\dfrac{1}{4-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{53}{8}$}}
+
+\item $-4-8\times\dfrac{2}{3}\div\left(7+2\right)\div\dfrac{2}{2+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-130}{27}$}}
+
+\item $7-8\div\dfrac{8}{3}\div\left(-8+1\right)\times\dfrac{4}{3+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{261}{35}$}}
+
+\item $5+5\times\dfrac{9}{5}\div\left(-6+3\right)\times\dfrac{4}{4-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{9}{5}$}}
+
+\item $-8+3\div0.6\times\left(-4-3\right)\times\dfrac{2}{3+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-486}{17}$}}
+
+\item $9-6\div\dfrac{2}{3}\div\left(-2-7\right)\div\dfrac{2}{5+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{93}{8}$}}
+
+\item $-1-3\times0.5\times\left(7+2\right)\times\dfrac{1}{5+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-40}{13}$}}
+
+\item $-6+7\div1.75\times\left(0-3\right)\times\dfrac{5}{3-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-378}{13}$}}
+
+\item $0-4\div1.25\div\left(-6-1\right)\times\dfrac{1}{3+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{16}{133}$}}
+
+\item $6-1\times1.25\div\left(-3-2\right)\div\dfrac{1}{3+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{109}{16}$}}
+
+\item $3-1\times0.6\times\left(9+2\right)\div\dfrac{2}{2+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-29}{5}$}}
+
+\item $3-3\div0.2\div\left(5-2\right)\times\dfrac{2}{4-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{13}$}}
+
+\item $-9+5\times\dfrac{3}{8}\times\left(0-1\right)\times\dfrac{2}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-651}{64}$}}
+
+\item $8-8\div1.25\div\left(-6+1\right)\div\dfrac{3}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{3704}{375}$}}
+
+\item $7+3\div\dfrac{4}{7}\times\left(-2-1\right)\div\dfrac{4}{2+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-245}{64}$}}
+
+\item $-5+9\div0.6\times\left(-2-1\right)\div\dfrac{1}{1-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{35}{2}$}}
+
+\item $8-3\times\dfrac{3}{7}\div\left(4+1\right)\times\dfrac{1}{1-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{292}{35}$}}
+
+\item $-7+7\div0.2\times\left(6-2\right)\div\dfrac{4}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $112$}}
+
+\item $6-6\times\dfrac{9}{2}\times\left(-8+2\right)\times\dfrac{2}{2-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $438$}}
+
+\item $-9+1\times\dfrac{7}{5}\div\left(1-2\right)\div\dfrac{4}{1-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-457}{50}$}}
+
+\item $-6-2\times0.4\div\left(-9+3\right)\div\dfrac{3}{1-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-539}{90}$}}
+
+\item $5-1\div\dfrac{4}{2}\times\left(3-2\right)\div\dfrac{5}{5-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{187}{40}$}}
+
+\item $-2+5\times0.6\div\left(0+1\right)\times\dfrac{2}{5-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2}{3}$}}
+
+\item $0+1\times0.25\div\left(-2+5\right)\times\dfrac{2}{3-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2}{33}$}}
+
+\item $-2+2\times0.8\div\left(3+1\right)\div\dfrac{2}{2-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-7}{4}$}}
+
+\item $9-6\div\dfrac{6}{7}\div\left(0+2\right)\div\dfrac{2}{4+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{5}{6}$}}
+
+\item $7+5\div\dfrac{7}{4}\times\left(4-1\right)\times\dfrac{3}{5-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{173}{14}$}}
+
+\item $4+2\div1.5\times\left(-6-1\right)\times\dfrac{1}{5+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{86}{39}$}}
+
+\item $0+7\div0.2\div\left(9+1\right)\div\dfrac{5}{1-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{7}{50}$}}
+
+\item $-1+8\div\dfrac{6}{4}\times\left(9+2\right)\times\dfrac{4}{5+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $43$}}
+
+\item $5-6\times1.5\times\left(-2+3\right)\times\dfrac{5}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-55}{4}$}}
+
+\item $0+2\times0.25\times\left(4-3\right)\times\dfrac{2}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{5}{17}$}}
+
+\item $-9-3\times\dfrac{5}{8}\times\left(-7+2\right)\div\dfrac{4}{5-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{27}{32}$}}
+
+\item $4-7\div\dfrac{4}{2}\times\left(-1-3\right)\times\dfrac{2}{1+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{132}{5}$}}
+
+\item $5+7\div\dfrac{2}{8}\times\left(-4+2\right)\times\dfrac{3}{1+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-647}{5}$}}
+
+\item $4+4\times\dfrac{3}{5}\div\left(6-2\right)\div\dfrac{4}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{227}{50}$}}
+
+\item $3-5\times0.5\times\left(4-3\right)\div\dfrac{2}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-3$}}
+
+\item $7+2\times\dfrac{5}{3}\div\left(1+2\right)\times\dfrac{2}{3-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{167}{21}$}}
+
+\item $-1+2\times0.8\div\left(-2-1\right)\div\dfrac{3}{1-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-13}{15}$}}
+
+\item $1+6\times\dfrac{9}{4}\times\left(3+1\right)\div\dfrac{3}{4+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{155}{2}$}}
+
+\item $1+6\times0.5\div\left(9+3\right)\times\dfrac{4}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{26}{21}$}}
+
+\item $-9+1\times\dfrac{2}{5}\div\left(-5+3\right)\times\dfrac{3}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-37}{4}$}}
+
+\item $8-1\times\dfrac{4}{7}\times\left(-2-3\right)\times\dfrac{2}{4+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1224}{133}$}}
+
+\item $-1+4\times\dfrac{5}{6}\times\left(5-1\right)\div\dfrac{2}{5-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $31$}}
+
+\item $-6+7\div\dfrac{2}{5}\div\left(-5-3\right)\times\dfrac{2}{3-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-799}{104}$}}
+
+\item $-4+6\times\dfrac{5}{7}\times\left(7-1\right)\times\dfrac{1}{1-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{212}{7}$}}
+
+\item $9+9\div1.25\div\left(6+2\right)\times\dfrac{1}{1-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{27}{5}$}}
+
+\item $-2-1\div0.4\div\left(-8-3\right)\times\dfrac{4}{4-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-134}{77}$}}
+
+\item $6+5\times0.25\times\left(-2+8\right)\div\dfrac{5}{5+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{123}{8}$}}
+
+\item $-4-6\div0.2\div\left(-8+2\right)\div\dfrac{2}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{13}{2}$}}
+
+\item $-7-4\div0.8\times\left(-9+3\right)\div\dfrac{4}{4+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{229}{8}$}}
+
+\item $-2-6\times\dfrac{3}{6}\times\left(8+1\right)\times\dfrac{2}{2+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-292}{11}$}}
+
+\item $-6+6\times\dfrac{2}{3}\div\left(1-3\right)\div\dfrac{1}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-66}{5}$}}
+
+\item $0+6\div0.8\div\left(-8+3\right)\times\dfrac{2}{5+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-12}{23}$}}
+
+\item $-8+7\times0.8\div\left(8-3\right)\times\dfrac{5}{1+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-4$}}
+
+\item $9+2\div0.25\div\left(-6-3\right)\div\dfrac{4}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{119}{15}$}}
+
+\item $4-1\div1.25\div\left(-5+3\right)\times\dfrac{2}{1-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{36}{5}$}}
+
+\item $-5-5\times\dfrac{6}{2}\div\left(-4-3\right)\div\dfrac{1}{2+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{25}{28}$}}
+
+\item $2-9\times1.5\div\left(6-3\right)\times\dfrac{1}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{2}$}}
+
+\item $-9+6\times\dfrac{9}{2}\div\left(-9+3\right)\times\dfrac{5}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-219}{16}$}}
+
+\item $-9+3\times\dfrac{6}{8}\times\left(8+1\right)\times\dfrac{2}{4-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{117}{32}$}}
+
+\item $3-1\div0.75\div\left(-3+2\right)\times\dfrac{3}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{31}{7}$}}
+
+\item $5-6\times1.5\times\left(-6+3\right)\div\dfrac{3}{4+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{227}{4}$}}
+
+\item $8+1\div1.75\times\left(-3+2\right)\div\dfrac{1}{1-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{54}{7}$}}
+
+\item $2-7\div\dfrac{8}{7}\div\left(-2+1\right)\div\dfrac{1}{5-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{995}{32}$}}
+
+\item $3-2\times\dfrac{6}{2}\times\left(1-1\right)\div\dfrac{1}{1-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $3$}}
+
+\item $5-9\times0.8\times\left(4+2\right)\div\dfrac{2}{5-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-461}{5}$}}
+
+\item $7+7\div\dfrac{6}{2}\times\left(9-2\right)\times\dfrac{2}{3+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{434}{27}$}}
+
+\item $-9+1\div0.4\times\left(-9+3\right)\times\dfrac{2}{1-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $111$}}
+
+\item $-6+5\times0.2\div\left(-8+2\right)\times\dfrac{2}{2-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-130}{21}$}}
+
+\item $-5+9\div\dfrac{9}{3}\times\left(0+1\right)\times\dfrac{1}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $10$}}
+
+\item $5-9\div0.2\times\left(-3-2\right)\times\dfrac{4}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{385}{2}$}}
+
+\item $-8+7\div1.75\times\left(-8+2\right)\times\dfrac{5}{3+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-91}{2}$}}
+
+\item $-2-8\times0.6\div\left(6-2\right)\times\dfrac{2}{2-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-10}{3}$}}
+
+\item $9+1\div0.2\times\left(8+2\right)\times\dfrac{2}{4-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $49$}}
+
+\item $5+4\div1.25\div\left(5-3\right)\times\dfrac{1}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{11}{2}$}}
+
+\item $-2+8\times0.75\div\left(0+2\right)\times\dfrac{4}{1-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $28$}}
+
+\item $-5-6\times\dfrac{6}{2}\times\left(9+1\right)\div\dfrac{5}{4-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $-125$}}
+
+\item $4-5\times\dfrac{3}{4}\times\left(7+2\right)\div\dfrac{3}{1+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-103}{8}$}}
+
+\item $2+6\times\dfrac{8}{3}\times\left(7-2\right)\times\dfrac{5}{1-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $-1598$}}
+
+\item $9-7\times0.25\times\left(-3-1\right)\times\dfrac{5}{4-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{337}{18}$}}
+
+\item $-4-9\times0.8\times\left(5-1\right)\div\dfrac{4}{1-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-32}{5}$}}
+
+\item $7+2\div\dfrac{6}{8}\times\left(4-2\right)\div\dfrac{2}{1-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{79}{9}$}}
+
+\item $-3+5\times\dfrac{4}{3}\times\left(-7+3\right)\div\dfrac{3}{5+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-467}{9}$}}
+
+\item $-9+1\times0.8\div\left(-6-1\right)\times\dfrac{4}{3-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1607}{175}$}}
+
+\item $7+1\div0.4\div\left(1+1\right)\times\dfrac{3}{5-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{106}{13}$}}
+
+\item $-4-3\div\dfrac{2}{3}\times\left(-5+3\right)\div\dfrac{3}{2-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{4}$}}
+
+\item $-9-1\div\dfrac{3}{6}\times\left(5+1\right)\div\dfrac{2}{4-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-57}{2}$}}
+
+\item $-1-1\div0.25\times\left(7+2\right)\times\dfrac{3}{1+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-137}{2}$}}
+
+\item $-1+4\times\dfrac{3}{5}\times\left(-7-3\right)\div\dfrac{2}{4+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-55$}}
+
+\item $-7+1\div1.5\div\left(6-3\right)\times\dfrac{3}{1-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-17}{3}$}}
+
+\item $4+7\div0.8\times\left(-5+1\right)\div\dfrac{4}{1+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-33}{4}$}}
+
+\item $-3-6\div\dfrac{2}{5}\times\left(8+3\right)\div\dfrac{2}{1-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-177}{4}$}}
+
+\item $-1+1\div1.5\div\left(7+2\right)\times\dfrac{3}{5-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-197}{207}$}}
+
+\item $-7+3\times\dfrac{3}{9}\div\left(9+3\right)\div\dfrac{2}{5+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-271}{40}$}}
+
+\item $-9-7\div\dfrac{9}{2}\times\left(9-1\right)\times\dfrac{5}{1+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-3529}{81}$}}
+
+\item $8+8\times\dfrac{8}{6}\div\left(7-2\right)\times\dfrac{5}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{296}{27}$}}
+
+\item $-2+8\times\dfrac{7}{3}\div\left(4+3\right)\div\dfrac{3}{5-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{50}{27}$}}
+
+\item $3-5\times\dfrac{5}{2}\times\left(2-2\right)\div\dfrac{3}{1+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $3$}}
+
+\item $-9+7\times\dfrac{7}{6}\div\left(0-1\right)\div\dfrac{5}{2-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-274}{25}$}}
+
+\item $-1-4\div0.8\div\left(7-2\right)\times\dfrac{2}{1+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-9}{4}$}}
+
+\item $4+6\times0.25\div\left(7-3\right)\div\dfrac{4}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{329}{80}$}}
+
+\item $-8-9\times0.2\times\left(4+1\right)\times\dfrac{1}{5+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-29}{3}$}}
+
+\item $7-3\times0.5\times\left(-9+1\right)\div\dfrac{1}{2+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $46$}}
+
+\item $-4+1\div0.5\div\left(6-1\right)\times\dfrac{4}{1+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-8}{3}$}}
+
+\item $4-3\times0.8\div\left(-9-1\right)\div\dfrac{2}{1-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{509}{125}$}}
+
+\item $-6+5\times0.6\div\left(-3+1\right)\div\dfrac{3}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-42}{5}$}}
+
+\item $-7-6\times0.8\times\left(8-2\right)\div\dfrac{2}{1+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-607}{25}$}}
+
+\item $0+1\times\dfrac{9}{7}\times\left(-3-2\right)\times\dfrac{1}{1+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-30}{7}$}}
+
+\item $-1-2\times\dfrac{9}{4}\times\left(8-2\right)\div\dfrac{2}{3-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-139}{4}$}}
+
+\item $3-2\div\dfrac{9}{8}\times\left(4+3\right)\times\dfrac{1}{2-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-313}{45}$}}
+
+\item $0-1\div\dfrac{8}{5}\times\left(-1+3\right)\div\dfrac{5}{4+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-21}{16}$}}
+
+\item $4-2\times\dfrac{6}{9}\times\left(9-3\right)\times\dfrac{4}{1+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-52}{3}$}}
+
+\item $0+7\times\dfrac{7}{6}\times\left(-8+1\right)\times\dfrac{4}{2-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2744}{3}$}}
+
+\item $1-5\times1.5\div\left(-8-2\right)\times\dfrac{4}{2+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{16}{7}$}}
+
+\item $-7+7\times0.4\times\left(-3-2\right)\times\dfrac{1}{1+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-56}{3}$}}
+
+\item $-8-8\div\dfrac{3}{2}\div\left(0-1\right)\div\dfrac{2}{1+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-14}{3}$}}
+
+\item $9+8\div0.6\div\left(-8+1\right)\times\dfrac{3}{4-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{157}{21}$}}
+
+\item $0-5\times0.25\times\left(-9+1\right)\div\dfrac{5}{4+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{42}{5}$}}
+
+\item $-4+8\times0.2\times\left(5+2\right)\div\dfrac{1}{2+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{106}{5}$}}
+
+\item $9+4\times0.5\div\left(-7-2\right)\div\dfrac{5}{1-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{404}{45}$}}
+
+\item $2-2\div1.75\div\left(8-3\right)\times\dfrac{3}{1+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{34}{21}$}}
+
+\item $-2-1\div\dfrac{5}{3}\div\left(-1-3\right)\times\dfrac{3}{1-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1}{4}$}}
+
+\item $3+8\div0.6\times\left(-1+3\right)\times\dfrac{3}{4+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{389}{23}$}}
+
+\item $9-2\div\dfrac{6}{2}\div\left(-9-1\right)\times\dfrac{3}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{163}{18}$}}
+
+\item $-6-6\div\dfrac{6}{8}\div\left(-5-1\right)\div\dfrac{1}{5-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2}{5}$}}
+
+\item $-4+8\times0.2\div\left(-3+1\right)\times\dfrac{1}{1-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-36}{5}$}}
+
+\item $3+1\div1.75\div\left(8-2\right)\div\dfrac{4}{3-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{257}{84}$}}
+
+\item $-2-7\times0.8\times\left(-2+1\right)\div\dfrac{1}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{286}{25}$}}
+
+\item $9+4\div0.4\times\left(-2-3\right)\div\dfrac{5}{2+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $-19$}}
+
+\item $7+5\times\dfrac{4}{3}\times\left(-6-3\right)\times\dfrac{5}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-118$}}
+
+\item $-7+6\div0.2\div\left(2+3\right)\times\dfrac{3}{1+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $8$}}
+
+\item $5-8\times1.5\div\left(-8+1\right)\div\dfrac{2}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{283}{35}$}}
+
+\item $-4-7\div0.6\times\left(7-3\right)\div\dfrac{2}{3-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-199}{6}$}}
+
+\item $-5+5\times0.2\div\left(-2+1\right)\times\dfrac{5}{2-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-60}{7}$}}
+
+\item $6-3\div0.5\div\left(8+3\right)\div\dfrac{1}{3+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{234}{55}$}}
+
+\item $2+7\times\dfrac{8}{3}\div\left(7-2\right)\times\dfrac{4}{3-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{22}{3}$}}
+
+\item $7-4\times\dfrac{6}{9}\times\left(-7+3\right)\times\dfrac{2}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{227}{21}$}}
+
+\item $-5+1\div\dfrac{4}{8}\div\left(8+2\right)\times\dfrac{5}{1-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-15}{4}$}}
+
+\item $-8-1\times\dfrac{2}{4}\div\left(-4-1\right)\div\dfrac{5}{1-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-799}{100}$}}
+
+\item $8+8\div\dfrac{5}{9}\times\left(5+2\right)\times\dfrac{3}{5-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{376}{5}$}}
+
+\item $-8+9\times0.5\times\left(-8-1\right)\div\dfrac{5}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1291}{50}$}}
+
+\item $4-4\times\dfrac{4}{5}\times\left(0-2\right)\div\dfrac{3}{4-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{812}{75}$}}
+
+\item $4+8\div0.2\div\left(-6+2\right)\div\dfrac{5}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-11}{2}$}}
+
+\item $-7+5\div\dfrac{8}{6}\times\left(-9+2\right)\times\dfrac{2}{2+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-427}{16}$}}
+
+\item $-3+9\times1.5\times\left(3-3\right)\times\dfrac{4}{1+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $-3$}}
+
+\item $1+6\div1.75\div\left(9-1\right)\times\dfrac{4}{2+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{151}{91}$}}
+
+\item $1-3\times\dfrac{2}{9}\div\left(1+2\right)\div\dfrac{1}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{11}{45}$}}
+
+\item $0+9\div0.75\div\left(4-2\right)\div\dfrac{3}{1+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{8}{3}$}}
+
+\item $3-7\times0.2\div\left(4-3\right)\div\dfrac{2}{5+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-39}{50}$}}
+
+\item $2+1\times\dfrac{4}{2}\div\left(3+2\right)\div\dfrac{2}{1-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{21}{10}$}}
+
+\item $-4-9\div\dfrac{4}{5}\times\left(-4+3\right)\div\dfrac{5}{4-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{17}{4}$}}
+
+\item $-3-6\times\dfrac{4}{5}\div\left(1+3\right)\times\dfrac{5}{4+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-31}{7}$}}
+
+\item $0+2\div0.4\div\left(5+3\right)\div\dfrac{2}{2-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{35}{64}$}}
+
+\item $3-3\times\dfrac{8}{6}\times\left(5-2\right)\times\dfrac{1}{1-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $-17$}}
+
+\item $-1+9\div\dfrac{5}{3}\times\left(-7-2\right)\times\dfrac{2}{3-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-499}{13}$}}
+
+\item $6+6\times\dfrac{5}{6}\times\left(0+1\right)\times\dfrac{2}{5-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{97}{12}$}}
+
+\item $2+6\div\dfrac{4}{3}\times\left(6-1\right)\div\dfrac{4}{1+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{379}{32}$}}
+
+\item $4-7\div\dfrac{4}{3}\times\left(-9+2\right)\div\dfrac{2}{1-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{601}{40}$}}
+
+\item $2-9\times0.2\div\left(-4-2\right)\div\dfrac{5}{3+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{551}{250}$}}
+
+\item $5+9\times\dfrac{3}{5}\times\left(2-1\right)\times\dfrac{4}{3-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $14$}}
+
+\item $-5-9\times\dfrac{9}{8}\div\left(9-3\right)\div\dfrac{1}{4+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-833}{64}$}}
+
+\item $2+2\div\dfrac{8}{7}\times\left(-7+1\right)\times\dfrac{3}{1-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-307}{4}$}}
+
+\item $-4-5\div\dfrac{8}{7}\div\left(-2-3\right)\times\dfrac{4}{2-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2}{3}$}}
+
+\item $-1-6\div0.4\div\left(1-3\right)\times\dfrac{4}{5+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{41}{9}$}}
+
+\item $6+6\times\dfrac{8}{3}\div\left(-5-2\right)\times\dfrac{5}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-22}{63}$}}
+
+\item $9-1\times\dfrac{6}{2}\times\left(1-1\right)\div\dfrac{4}{5+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $9$}}
+
+\item $4+6\div0.25\div\left(3-1\right)\div\dfrac{1}{1-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $7$}}
+
+\item $9-4\times\dfrac{5}{8}\times\left(4+1\right)\times\dfrac{1}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-17}{12}$}}
+
+\item $-9-4\div\dfrac{3}{9}\div\left(5-2\right)\div\dfrac{5}{1+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-249}{25}$}}
+
+\item $-8-6\times\dfrac{7}{3}\div\left(7+1\right)\div\dfrac{5}{5-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-961}{100}$}}
+
+\item $2+3\div0.2\times\left(-1+2\right)\times\dfrac{1}{2+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{101}{13}$}}
+
+\item $1+4\div\dfrac{4}{8}\times\left(-9-3\right)\times\dfrac{5}{3+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-953}{7}$}}
+
+\item $-7-7\div\dfrac{2}{6}\div\left(-4+3\right)\times\dfrac{3}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{238}{11}$}}
+
+\item $5-8\times1.5\times\left(-5-3\right)\times\dfrac{5}{2-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $325$}}
+
+\item $-6-6\times0.6\div\left(-6-2\right)\div\dfrac{2}{5-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-843}{160}$}}
+
+\item $-2+2\times\dfrac{9}{3}\times\left(2-1\right)\div\dfrac{1}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{56}{5}$}}
+
+\item $6+7\times0.25\times\left(-7-2\right)\times\dfrac{3}{4+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-393}{92}$}}
+
+\item $0+3\times\dfrac{6}{3}\times\left(-4+3\right)\div\dfrac{5}{5-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-126}{25}$}}
+
+\item $-4+7\div0.8\times\left(-1+4\right)\times\dfrac{2}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{43}{8}$}}
+
+\item $-3-6\times0.6\div\left(-8-1\right)\times\dfrac{1}{4+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-277}{95}$}}
+
+\item $2+1\div0.2\div\left(-3-1\right)\div\dfrac{2}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{7}{16}$}}
+
+\item $3+6\times0.75\div\left(-3-9\right)\times\dfrac{5}{5-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{477}{184}$}}
+
+\item $0-3\times1.75\div\left(-1-3\right)\div\dfrac{1}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{147}{32}$}}
+
+\item $-4+8\times\dfrac{4}{7}\div\left(-1-2\right)\times\dfrac{1}{2-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-148}{21}$}}
+
+\item $-3-7\div\dfrac{2}{4}\times\left(1+3\right)\div\dfrac{1}{4-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-143$}}
+
+\item $-5+3\times0.25\times\left(1-3\right)\div\dfrac{5}{1-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-209}{40}$}}
+
+\item $3-7\times1.5\times\left(8+2\right)\times\dfrac{1}{3+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-477}{16}$}}
+
+\item $8+8\times\dfrac{8}{3}\times\left(0+3\right)\times\dfrac{1}{2+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{328}{9}$}}
+
+\item $-3+1\div\dfrac{5}{6}\div\left(-1-5\right)\div\dfrac{5}{5-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-397}{125}$}}
+
+\item $4-2\div0.2\div\left(-7-3\right)\div\dfrac{3}{3+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{46}{9}$}}
+
+\item $8+7\div\dfrac{9}{3}\times\left(0+3\right)\times\dfrac{4}{2-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{51}{2}$}}
+
+\item $-4+9\times0.2\div\left(0-3\right)\times\dfrac{2}{4+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-64}{15}$}}
+
+\item $0+2\div\dfrac{6}{8}\times\left(-5-3\right)\div\dfrac{3}{2-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-80}{9}$}}
+
+\item $-9-2\times1.5\times\left(4+2\right)\times\dfrac{3}{3+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-24$}}
+
+\item $-6+3\div1.5\div\left(1+3\right)\div\dfrac{4}{4-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-28}{5}$}}
+
+\item $7+3\div\dfrac{8}{7}\div\left(-2+1\right)\times\dfrac{3}{4-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{19}{4}$}}
+
+\item $8-2\div0.5\div\left(-9+3\right)\div\dfrac{4}{5+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{71}{8}$}}
+
+\item $-7+9\times\dfrac{5}{2}\div\left(-7-2\right)\times\dfrac{1}{2+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-207}{26}$}}
+
+\item $6-7\times1.25\div\left(5+3\right)\div\dfrac{4}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{621}{128}$}}
+
+\item $8+1\div\dfrac{4}{3}\times\left(0+3\right)\div\dfrac{1}{5+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{371}{16}$}}
+
+\item $-7+6\times0.25\div\left(-2+3\right)\times\dfrac{1}{3-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-32}{5}$}}
+
+\item $9+1\div0.25\div\left(6+2\right)\times\dfrac{5}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{277}{28}$}}
+
+\item $5-4\div1.75\div\left(9-2\right)\times\dfrac{2}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{715}{147}$}}
+
+\item $-8+3\div\dfrac{2}{5}\div\left(7+2\right)\times\dfrac{4}{2-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-32}{9}$}}
+
+\item $0-3\times\dfrac{5}{7}\div\left(2+1\right)\times\dfrac{1}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-20}{63}$}}
+
+\item $5+9\times\dfrac{8}{5}\times\left(-6+3\right)\times\dfrac{5}{2+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-407}{5}$}}
+
+\item $-9-1\div\dfrac{7}{6}\div\left(9+1\right)\times\dfrac{5}{3-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-321}{35}$}}
+
+\item $-3+4\div\dfrac{4}{7}\times\left(7-3\right)\times\dfrac{1}{5-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{29}{9}$}}
+
+\item $-3+2\div\dfrac{4}{9}\times\left(-6-2\right)\div\dfrac{1}{5-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-129$}}
+
+\item $6+6\div\dfrac{5}{8}\times\left(1-3\right)\div\dfrac{4}{2-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-12}{5}$}}
+
+\item $3-1\div0.8\times\left(5-3\right)\times\dfrac{4}{1+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-13}{4}$}}
+
+\item $-4+5\div\dfrac{6}{4}\div\left(7+1\right)\times\dfrac{3}{3+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-67}{18}$}}
+
+\item $-4+3\div0.75\div\left(6+2\right)\div\dfrac{4}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-73}{20}$}}
+
+\item $-6-9\times\dfrac{9}{8}\div\left(-7-3\right)\times\dfrac{4}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-39}{8}$}}
+
+\item $6+7\div\dfrac{9}{7}\div\left(8-1\right)\div\dfrac{3}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{284}{45}$}}
+
+\item $5-8\div0.2\times\left(-5+1\right)\times\dfrac{4}{5-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1325}{9}$}}
+
+\item $-1+7\div0.2\div\left(-9+1\right)\div\dfrac{5}{4+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-151}{32}$}}
+
+\item $9+8\times0.75\div\left(0+1\right)\times\dfrac{2}{1-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $-7$}}
+
+\item $1-6\times\dfrac{6}{3}\div\left(-2+1\right)\times\dfrac{5}{4-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{251}{11}$}}
+
+\item $4-4\times\dfrac{5}{6}\div\left(8-2\right)\div\dfrac{1}{5-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{3}{2}$}}
+
+\item $-9-6\times\dfrac{3}{2}\div\left(0+2\right)\times\dfrac{2}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-207}{19}$}}
+
+\item $-4+4\times\dfrac{2}{4}\times\left(7+2\right)\times\dfrac{3}{2+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{52}{5}$}}
+
+\item $4+2\times1.25\times\left(-4+3\right)\times\dfrac{3}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{37}{28}$}}
+
+\item $-7+9\times0.2\times\left(7-2\right)\times\dfrac{1}{2+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-22}{7}$}}
+
+\item $-7+3\times\dfrac{3}{4}\times\left(0+1\right)\div\dfrac{2}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-271}{40}$}}
+
+\item $-4+4\times0.25\times\left(9-1\right)\div\dfrac{3}{3+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{22}{3}$}}
+
+\item $-1-9\times\dfrac{3}{6}\times\left(1-3\right)\times\dfrac{3}{4-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{95}{13}$}}
+
+\item $2+8\div1.5\div\left(-8+3\right)\times\dfrac{5}{2-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-14}{9}$}}
+
+\item $-1-4\div\dfrac{6}{8}\div\left(9-2\right)\div\dfrac{2}{5-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-13}{5}$}}
+
+\item $4-6\times0.2\div\left(1-2\right)\div\dfrac{4}{1+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{109}{25}$}}
+
+\item $7+4\div\dfrac{5}{2}\div\left(2+2\right)\times\dfrac{2}{3+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{253}{35}$}}
+
+\item $1-1\times0.8\div\left(3+1\right)\div\dfrac{3}{1-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{71}{75}$}}
+
+\item $1-7\times1.25\times\left(-1+8\right)\div\dfrac{5}{5-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-433}{8}$}}
+
+\item $9+7\div0.5\div\left(8-3\right)\times\dfrac{2}{3-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{61}{5}$}}
+
+\item $-2+8\times\dfrac{4}{3}\div\left(-5-3\right)\div\dfrac{2}{1-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-38}{15}$}}
+
+\item $-3-8\times\dfrac{2}{4}\div\left(-4+2\right)\div\dfrac{3}{2-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $-2$}}
+
+\item $-1+6\div1.5\times\left(-5-1\right)\div\dfrac{5}{2-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $-9$}}
+
+\item $6-6\times\dfrac{5}{9}\div\left(0-2\right)\times\dfrac{3}{2-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $16$}}
+
+\item $0+1\times0.8\times\left(-7+1\right)\div\dfrac{1}{4+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-504}{25}$}}
+
+\item $5+3\times0.8\div\left(3+3\right)\div\dfrac{2}{5-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{149}{25}$}}
+
+\item $-4-6\div\dfrac{5}{4}\times\left(3-3\right)\times\dfrac{2}{2-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $-4$}}
+
+\item $1+5\div\dfrac{3}{6}\div\left(4+1\right)\times\dfrac{3}{4-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{17}{5}$}}
+
+\item $7+8\div\dfrac{6}{5}\times\left(7-2\right)\times\dfrac{5}{3-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2731}{33}$}}
+
+\item $-6+6\div0.4\div\left(-9-3\right)\div\dfrac{3}{2-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-313}{48}$}}
+
+\item $9+6\div1.5\times\left(3+2\right)\times\dfrac{2}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{241}{9}$}}
+
+\item $4-8\div0.8\div\left(-8+2\right)\times\dfrac{4}{4+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{376}{69}$}}
+
+\item $-6-7\times\dfrac{6}{9}\div\left(6+3\right)\times\dfrac{5}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1808}{243}$}}
+
+\item $1+8\times\dfrac{9}{8}\div\left(-1-3\right)\div\dfrac{1}{4-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-83}{16}$}}
+
+\item $4+8\times1.75\times\left(-2+1\right)\times\dfrac{5}{2+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-16$}}
+
+\item $-8-2\div\dfrac{3}{8}\div\left(-3+1\right)\times\dfrac{3}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-40}{9}$}}
+
+\item $0+8\times\dfrac{5}{3}\times\left(2-3\right)\div\dfrac{1}{3-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-100}{3}$}}
+
+\item $5+8\div0.4\div\left(0-1\right)\times\dfrac{2}{4+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-25}{11}$}}
+
+\item $-2-6\div1.5\times\left(-4+1\right)\times\dfrac{1}{4+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2}{3}$}}
+
+\item $7+9\times\dfrac{6}{3}\div\left(-2+8\right)\div\dfrac{1}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{119}{5}$}}
+
+\item $7+8\div\dfrac{3}{7}\times\left(-4+3\right)\div\dfrac{5}{3-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-49}{15}$}}
+
+\item $5+9\div\dfrac{2}{4}\times\left(4-3\right)\times\dfrac{2}{2-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $77$}}
+
+\item $-9-3\times0.25\times\left(-2+6\right)\times\dfrac{5}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-219}{16}$}}
+
+\item $-8+7\div0.4\times\left(6+3\right)\times\dfrac{4}{4+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $112$}}
+
+\item $-4+4\times\dfrac{7}{4}\times\left(-2+1\right)\times\dfrac{3}{2-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-79}{4}$}}
+
+\item $1-2\times0.75\div\left(-3+2\right)\times\dfrac{1}{5+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{16}{13}$}}
+
+\item $-4+7\div1.25\times\left(9+2\right)\div\dfrac{4}{3-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{556}{15}$}}
+
+\item $8-2\div0.75\div\left(-7+2\right)\div\dfrac{3}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{208}{25}$}}
+
+\item $-2-5\div\dfrac{4}{9}\times\left(1-3\right)\times\dfrac{1}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{157}{34}$}}
+
+\item $3-4\div0.8\times\left(-2-3\right)\div\dfrac{1}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{487}{4}$}}
+
+\item $0-3\times0.25\times\left(0+1\right)\div\dfrac{2}{2+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-9}{10}$}}
+
+\item $5+6\div0.75\times\left(8-1\right)\div\dfrac{4}{4-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $54$}}
+
+\item $6-2\div\dfrac{2}{8}\times\left(-8-1\right)\div\dfrac{1}{4+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1542}{5}$}}
+
+\item $-9-6\div\dfrac{8}{4}\div\left(8-3\right)\times\dfrac{2}{5-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-139}{15}$}}
+
+\item $-8-4\div\dfrac{4}{5}\times\left(-3-2\right)\div\dfrac{4}{1-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-39}{8}$}}
+
+\item $1-7\div0.2\div\left(8+1\right)\times\dfrac{5}{4+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-98}{27}$}}
+
+\item $-6+5\times1.5\times\left(-6-2\right)\div\dfrac{2}{1+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-117}{2}$}}
+
+\item $6-1\div1.5\times\left(0-2\right)\times\dfrac{5}{5-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{514}{69}$}}
+
+\item $5+6\div0.5\div\left(2+3\right)\times\dfrac{2}{5-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{211}{35}$}}
+
+\item $5-9\div0.75\div\left(-9+3\right)\times\dfrac{4}{4-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{125}{17}$}}
+
+\item $-9-4\div1.75\div\left(8-1\right)\div\dfrac{2}{3-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-331}{35}$}}
+
+\item $-5+1\div\dfrac{8}{5}\div\left(-7+2\right)\div\dfrac{2}{4-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-209}{40}$}}
+
+\item $3-1\div\dfrac{4}{3}\div\left(3+2\right)\div\dfrac{3}{2+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{227}{80}$}}
+
+\item $5+3\div\dfrac{3}{6}\div\left(8-1\right)\times\dfrac{3}{4-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{755}{133}$}}
+
+\item $4-8\div\dfrac{7}{3}\times\left(5+3\right)\div\dfrac{3}{2-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-20}{7}$}}
+
+\item $5+9\times0.75\div\left(-1+2\right)\times\dfrac{2}{4-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{35}{4}$}}
+
+\item $8+5\times0.6\times\left(-5+2\right)\div\dfrac{2}{2-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{10}$}}
+
+\item $-7-3\div\dfrac{6}{9}\times\left(-4+2\right)\times\dfrac{5}{5+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{13}$}}
+
+\item $4-9\times\dfrac{2}{8}\times\left(-4-2\right)\div\dfrac{4}{4+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{641}{32}$}}
+
+\item $-5+3\times\dfrac{8}{6}\div\left(-2-5\right)\times\dfrac{4}{1-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-99}{7}$}}
+
+\item $-8-7\div\dfrac{2}{7}\div\left(-8+2\right)\div\dfrac{4}{1+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-207}{32}$}}
+
+\item $3+3\times0.6\times\left(5+2\right)\div\dfrac{3}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{306}{25}$}}
+
+\item $-9-1\div1.5\div\left(-5-1\right)\div\dfrac{5}{2+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1607}{180}$}}
+
+\item $-9-5\div\dfrac{2}{8}\times\left(9+1\right)\div\dfrac{1}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-649$}}
+
+\item $-6+2\div\dfrac{2}{9}\div\left(-2+5\right)\div\dfrac{5}{2+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-15}{4}$}}
+
+\item $-2-2\times\dfrac{5}{3}\div\left(-4+3\right)\div\dfrac{4}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $0$}}
+
+\item $5-1\times\dfrac{9}{5}\times\left(0-3\right)\times\dfrac{4}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{73}{5}$}}
+
+\item $-8+1\div\dfrac{8}{4}\div\left(-6-1\right)\times\dfrac{1}{5+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-3253}{406}$}}
+
+\item $3-1\times\dfrac{7}{2}\div\left(-2-1\right)\div\dfrac{2}{3+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{313}{60}$}}
+
+\item $3-3\div\dfrac{9}{7}\div\left(-9-1\right)\div\dfrac{5}{3+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{949}{300}$}}
+
+\item $6+2\times\dfrac{6}{2}\div\left(3+1\right)\times\dfrac{4}{5-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{22}{3}$}}
+
+\item $7+5\div0.5\times\left(-5+3\right)\times\dfrac{2}{1+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-59}{3}$}}
+
+\item $-2+9\div0.75\times\left(-4+3\right)\times\dfrac{5}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-134}{7}$}}
+
+\item $2-8\div\dfrac{2}{3}\div\left(-8-3\right)\div\dfrac{3}{1-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{23}{11}$}}
+
+\item $5+2\times0.8\times\left(8+2\right)\times\dfrac{5}{3+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{405}{17}$}}
+
+\item $2+9\div\dfrac{5}{3}\div\left(8+1\right)\div\dfrac{4}{5+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{229}{80}$}}
+
+\item $-4+2\div1.25\div\left(3-1\right)\times\dfrac{3}{5-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-38}{11}$}}
+
+\item $8+8\times1.5\times\left(-8-1\right)\div\dfrac{3}{4+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-163$}}
+
+\item $-2-3\div0.4\div\left(9+1\right)\times\dfrac{5}{5-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-49}{17}$}}
+
+\item $-6-8\times\dfrac{2}{5}\times\left(-3+2\right)\div\dfrac{2}{2+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-26}{15}$}}
+
+\item $7-8\times1.25\times\left(-4+2\right)\div\dfrac{4}{4+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{69}{2}$}}
+
+\item $4-3\times0.2\div\left(-2+6\right)\div\dfrac{5}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{991}{250}$}}
+
+\item $4+5\div0.4\div\left(2+1\right)\div\dfrac{1}{4+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{397}{18}$}}
+
+\item $6+3\times0.4\div\left(-3+1\right)\div\dfrac{3}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{133}{25}$}}
+
+\item $4-5\div\dfrac{5}{9}\div\left(5+1\right)\div\dfrac{5}{5-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{67}{25}$}}
+
+\item $-3+5\times\dfrac{9}{8}\div\left(-4+3\right)\times\dfrac{1}{1-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-57}{4}$}}
+
+\item $6+8\div\dfrac{6}{2}\times\left(-1+6\right)\times\dfrac{4}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{982}{57}$}}
+
+\item $9-8\times\dfrac{2}{8}\times\left(-3-6\right)\div\dfrac{5}{4-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{531}{25}$}}
+
+\item $3+3\times1.5\div\left(0+2\right)\div\dfrac{2}{2+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{219}{40}$}}
+
+\item $9-3\times\dfrac{7}{9}\times\left(-9-3\right)\div\dfrac{2}{2+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{123}{2}$}}
+
+\item $-8-8\div\dfrac{5}{2}\times\left(-9-1\right)\times\dfrac{1}{3+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{8}{11}$}}
+
+\item $-7-2\times\dfrac{8}{7}\div\left(4-3\right)\times\dfrac{3}{2-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-81}{7}$}}
+
+\item $9+6\times1.75\times\left(1-3\right)\div\dfrac{4}{1-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{165}{16}$}}
+
+\item $-5-7\div\dfrac{2}{4}\div\left(3+3\right)\div\dfrac{3}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-32}{5}$}}
+
+\item $-2-3\div1.75\div\left(7+1\right)\div\dfrac{3}{3-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-11}{5}$}}
+
+\item $3-3\times0.6\div\left(-8+1\right)\times\dfrac{2}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{39}{7}$}}
+
+\item $-9+9\div0.25\times\left(3-3\right)\times\dfrac{1}{1+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $-9$}}
+
+\item $8-8\times0.6\times\left(-5-3\right)\div\dfrac{3}{1+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{136}{5}$}}
+
+\item $-7+2\div0.8\times\left(7-1\right)\times\dfrac{3}{5+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{19}{23}$}}
+
+\item $8-3\div0.25\div\left(-7-3\right)\times\dfrac{4}{1+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{536}{55}$}}
+
+\item $-5+7\div\dfrac{9}{2}\div\left(-7-3\right)\times\dfrac{3}{3+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-77}{15}$}}
+
+\item $-9+1\div0.4\div\left(8+1\right)\div\dfrac{3}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-232}{27}$}}
+
+\item $-1+1\div\dfrac{6}{5}\times\left(-4+1\right)\times\dfrac{1}{2+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-51}{26}$}}
+
+\item $-7+9\div1.5\times\left(-6-3\right)\div\dfrac{4}{2+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-299}{8}$}}
+
+\item $-8+4\times\dfrac{4}{9}\times\left(5+2\right)\times\dfrac{5}{4+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{472}{81}$}}
+
+\item $-7+7\div\dfrac{4}{9}\div\left(5-1\right)\times\dfrac{1}{1+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-35}{8}$}}
+
+\item $-9-8\div0.6\times\left(-5+1\right)\times\dfrac{4}{5+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{611}{21}$}}
+
+\item $0+4\div1.25\div\left(-9+1\right)\div\dfrac{5}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-9}{50}$}}
+
+\item $-3-7\div\dfrac{4}{2}\times\left(-4-2\right)\div\dfrac{5}{3+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{282}{25}$}}
+
+\item $2+2\div1.5\times\left(0+3\right)\div\dfrac{4}{5-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{34}{5}$}}
+
+\item $4-2\times\dfrac{7}{2}\times\left(2-3\right)\times\dfrac{5}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{239}{16}$}}
+
+\item $9+6\div\dfrac{5}{3}\div\left(5-2\right)\times\dfrac{2}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{69}{7}$}}
+
+\item $-3-3\times0.75\div\left(1-3\right)\times\dfrac{5}{5+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-87}{44}$}}
+
+\item $0+5\times0.8\div\left(-2+5\right)\div\dfrac{1}{1+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $2$}}
+
+\item $5-2\times0.4\times\left(-2-5\right)\times\dfrac{1}{2-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{137}{5}$}}
+
+\item $2+2\times0.25\times\left(-3+2\right)\times\dfrac{3}{5+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{16}{9}$}}
+
+\item $-4-8\times\dfrac{4}{8}\times\left(5+3\right)\times\dfrac{1}{3-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-148}{5}$}}
+
+\item $-5-9\times0.2\div\left(9+1\right)\times\dfrac{5}{5-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-677}{130}$}}
+
+\item $-4+1\div0.2\div\left(2-3\right)\div\dfrac{2}{4+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-127}{8}$}}
+
+\item $-7-2\times\dfrac{3}{8}\div\left(-6+3\right)\div\dfrac{3}{1+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-413}{60}$}}
+
+\item $7-2\times0.8\div\left(-9+2\right)\div\dfrac{4}{5+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1279}{175}$}}
+
+\item $-8-6\div\dfrac{3}{2}\div\left(-4+2\right)\div\dfrac{3}{3+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-11}{2}$}}
+
+\item $3+6\times\dfrac{3}{6}\times\left(5-3\right)\div\dfrac{4}{4-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{69}{8}$}}
+
+\item $3-1\div1.5\div\left(9-3\right)\div\dfrac{3}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{131}{45}$}}
+
+\item $6-6\times0.4\times\left(-6-1\right)\times\dfrac{1}{4-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{198}{19}$}}
+
+\item $-4+8\div\dfrac{6}{7}\div\left(2-3\right)\times\dfrac{2}{2-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-148}{9}$}}
+
+\item $-2+8\div\dfrac{3}{8}\times\left(9+2\right)\times\dfrac{5}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{8782}{9}$}}
+
+\item $6-9\div1.5\div\left(0+1\right)\div\dfrac{1}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-42}{5}$}}
+
+\item $1+5\times\dfrac{5}{4}\div\left(-7+3\right)\div\dfrac{1}{2+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-93}{32}$}}
+
+\item $-7-7\div\dfrac{6}{8}\div\left(-4-1\right)\div\dfrac{5}{2-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-98}{15}$}}
+
+\item $0-5\div\dfrac{4}{5}\times\left(-4-2\right)\div\dfrac{4}{1-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{45}{8}$}}
+
+\item $5-7\div\dfrac{9}{2}\div\left(-5-3\right)\div\dfrac{3}{4-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2251}{432}$}}
+
+\item $-7-3\times0.6\div\left(8-2\right)\times\dfrac{4}{3-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-113}{15}$}}
+
+\item $-2-5\div0.75\div\left(-3-1\right)\div\dfrac{5}{2+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-13}{12}$}}
+
+\item $-6+4\div0.25\times\left(0+2\right)\div\dfrac{2}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{322}{5}$}}
+
+\item $6+9\times\dfrac{8}{7}\div\left(-9-3\right)\times\dfrac{5}{5+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1068}{203}$}}
+
+\item $-7+2\div\dfrac{4}{7}\div\left(6-3\right)\div\dfrac{3}{2+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-133}{24}$}}
+
+\item $0+9\times\dfrac{6}{4}\times\left(-9+1\right)\times\dfrac{4}{1+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $-324$}}
+
+\item $8-7\div0.4\times\left(4+2\right)\times\dfrac{3}{3-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $-118$}}
+
+\item $2-8\div\dfrac{8}{3}\div\left(-4-2\right)\times\dfrac{2}{5+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{59}{27}$}}
+
+\item $-4+6\times\dfrac{6}{2}\div\left(8-2\right)\div\dfrac{1}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2}{5}$}}
+
+\item $-1-8\div1.5\div\left(-4-3\right)\times\dfrac{2}{5+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-355}{483}$}}
+
+\item $-7+6\div\dfrac{6}{5}\div\left(9+2\right)\div\dfrac{4}{1+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-75}{11}$}}
+
+\item $-7+1\div1.75\times\left(-9-1\right)\div\dfrac{4}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-143}{14}$}}
+
+\item $-5+3\div0.25\div\left(2-1\right)\div\dfrac{1}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $52$}}
+
+\item $3+7\div0.6\div\left(0+1\right)\times\dfrac{2}{4-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{103}{11}$}}
+
+\item $-2-1\div1.25\div\left(2+3\right)\times\dfrac{2}{5+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-298}{145}$}}
+
+\item $3-7\div0.2\div\left(4+2\right)\times\dfrac{2}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-13}{54}$}}
+
+\item $-7+7\times0.6\times\left(8+3\right)\times\dfrac{2}{2+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $26$}}
+
+\item $-7+2\times\dfrac{2}{7}\times\left(1-2\right)\times\dfrac{1}{5+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1045}{147}$}}
+
+\item $2-9\times0.5\div\left(-2+1\right)\times\dfrac{3}{5-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $5$}}
+
+\item $-5+5\times\dfrac{7}{9}\div\left(8-2\right)\times\dfrac{4}{3+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-115}{27}$}}
+
+\item $8-5\div1.25\times\left(-8+3\right)\times\dfrac{1}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{236}{17}$}}
+
+\item $2-8\div\dfrac{5}{4}\times\left(-3+2\right)\div\dfrac{1}{2-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{38}{3}$}}
+
+\item $7-2\div0.5\div\left(4-1\right)\times\dfrac{1}{5-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{181}{27}$}}
+
+\item $5+6\times\dfrac{8}{4}\div\left(-6+1\right)\times\dfrac{2}{1-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-3$}}
+
+\item $8-9\div\dfrac{3}{5}\div\left(-8-1\right)\times\dfrac{4}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{218}{21}$}}
+
+\item $9+7\times1.5\div\left(-1+3\right)\div\dfrac{2}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{549}{40}$}}
+
+\item $7+6\div\dfrac{3}{4}\div\left(8-2\right)\div\dfrac{4}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{119}{15}$}}
+
+\item $-6-1\times\dfrac{6}{4}\div\left(0-3\right)\div\dfrac{2}{5-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-83}{16}$}}
+
+\item $-6-4\div\dfrac{7}{8}\times\left(5-3\right)\div\dfrac{5}{1+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-386}{35}$}}
+
+\item $9-8\div0.4\div\left(7+1\right)\div\dfrac{1}{5+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-4$}}
+
+\item $-8+1\div0.75\times\left(-7-3\right)\div\dfrac{1}{1+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-94}{3}$}}
+
+\item $4-6\times0.4\times\left(0+2\right)\div\dfrac{4}{4+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-7}{5}$}}
+
+\item $-1-7\times1.5\div\left(3+3\right)\times\dfrac{3}{5+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-43}{22}$}}
+
+\item $-3+4\div0.2\div\left(6+1\right)\times\dfrac{3}{2+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{4}{7}$}}
+
+\item $-5+2\div\dfrac{4}{6}\times\left(8-3\right)\times\dfrac{3}{3-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{155}{14}$}}
+
+\item $9+4\div\dfrac{5}{9}\times\left(-4+3\right)\div\dfrac{5}{3+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{108}{25}$}}
+
+\item $5+2\div0.4\div\left(1+1\right)\times\dfrac{5}{2+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $10$}}
+
+\item $-5-5\div\dfrac{6}{4}\div\left(-6+2\right)\div\dfrac{3}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-155}{36}$}}
+
+\item $8-3\times0.75\times\left(1-2\right)\div\dfrac{3}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{101}{10}$}}
+
+\item $-6+5\div0.25\div\left(-6-1\right)\div\dfrac{3}{3-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-181}{21}$}}
+
+\item $-6+9\div0.25\times\left(1+1\right)\times\dfrac{3}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1014}{11}$}}
+
+\item $-7+5\times0.75\times\left(0+1\right)\div\dfrac{1}{2+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{7}{2}$}}
+
+\item $-3-9\times0.8\times\left(-2-3\right)\times\dfrac{4}{5-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{393}{13}$}}
+
+\item $-3+3\times0.5\div\left(6-2\right)\div\dfrac{1}{3-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-69}{32}$}}
+
+\item $-9+5\times1.75\div\left(-4+2\right)\times\dfrac{2}{5-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1003}{92}$}}
+
+\item $0-7\times\dfrac{9}{5}\div\left(-2+1\right)\times\dfrac{3}{3-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{27}{2}$}}
+
+\item $-5+7\times\dfrac{8}{2}\div\left(7+1\right)\times\dfrac{2}{2-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $9$}}
+
+\item $6+1\div\dfrac{5}{3}\times\left(8+1\right)\times\dfrac{5}{5+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{120}{11}$}}
+
+\item $-2-6\times\dfrac{3}{6}\times\left(8-3\right)\div\dfrac{4}{3-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-197}{16}$}}
+
+\item $8+7\times\dfrac{3}{8}\times\left(-3-2\right)\times\dfrac{5}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-127}{6}$}}
+
+\item $2-6\div\dfrac{3}{9}\times\left(-7-1\right)\times\dfrac{1}{2+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{598}{11}$}}
+
+\item $8+1\times0.6\div\left(2+3\right)\times\dfrac{5}{3-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{289}{35}$}}
+
+\item $-5-4\div\dfrac{3}{5}\times\left(-6+2\right)\div\dfrac{4}{1-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-20}{3}$}}
+
+\item $-8-3\times1.5\times\left(2-2\right)\times\dfrac{2}{1+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-8$}}
+
+\item $-1-7\div0.5\times\left(1+3\right)\times\dfrac{3}{4+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-863}{23}$}}
+
+\item $1+2\times0.25\times\left(4+3\right)\times\dfrac{4}{5-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{46}{11}$}}
+
+\item $1+6\div\dfrac{3}{5}\div\left(-5+2\right)\div\dfrac{1}{1-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{9}$}}
+
+\item $7-6\times0.6\div\left(1-2\right)\div\dfrac{2}{2+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{292}{25}$}}
+
+\item $8+9\div0.8\div\left(-4-2\right)\times\dfrac{1}{3-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{231}{32}$}}
+
+\item $-5-4\div\dfrac{7}{3}\div\left(-9-1\right)\times\dfrac{3}{3+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1871}{385}$}}
+
+\item $7-1\div1.5\times\left(4+2\right)\times\dfrac{3}{1-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $-23$}}
+
+\item $-6-3\times0.2\times\left(-6+1\right)\times\dfrac{3}{4+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-4$}}
+
+\item $4-2\div\dfrac{8}{9}\times\left(7-1\right)\div\dfrac{4}{1+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-17}{16}$}}
+
+\item $5+9\div0.25\div\left(6+2\right)\div\dfrac{2}{5+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{287}{16}$}}
+
+\item $5+5\times\dfrac{6}{8}\div\left(6-3\right)\div\dfrac{4}{3+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{99}{16}$}}
+
+\item $-2-8\times\dfrac{4}{7}\div\left(-4-1\right)\times\dfrac{2}{1+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-94}{175}$}}
+
+\item $1-6\div0.8\times\left(-9-1\right)\div\dfrac{4}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1441}{16}$}}
+
+\item $5-2\times1.75\div\left(-3-2\right)\times\dfrac{5}{3-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{59}{9}$}}
+
+\item $0+8\times0.25\div\left(-9-2\right)\div\dfrac{2}{1-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-3}{44}$}}
+
+\item $-9+9\div0.25\times\left(5+2\right)\times\dfrac{2}{1+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $306$}}
+
+\item $-1+2\times\dfrac{7}{6}\times\left(-8-1\right)\div\dfrac{3}{5-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-65}{2}$}}
+
+\item $-1-9\div\dfrac{6}{8}\times\left(7-3\right)\times\dfrac{4}{2+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-779}{11}$}}
+
+\item $7-7\div0.2\div\left(-5+2\right)\times\dfrac{5}{4+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1099}{57}$}}
+
+\item $2+9\div\dfrac{7}{3}\times\left(-9-3\right)\div\dfrac{5}{3-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-821}{35}$}}
+
+\item $2+4\div0.75\div\left(-2+7\right)\div\dfrac{1}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{86}{15}$}}
+
+\item $7+2\times0.6\times\left(-5+2\right)\times\dfrac{2}{3-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{41}{11}$}}
+
+\item $0+8\times\dfrac{9}{6}\times\left(5-2\right)\div\dfrac{4}{5-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{171}{4}$}}
+
+\item $1-2\times0.6\times\left(-6+2\right)\div\dfrac{4}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{193}{25}$}}
+
+\item $3-8\div1.25\div\left(6+1\right)\div\dfrac{1}{5-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-31}{35}$}}
+
+\item $2+4\times\dfrac{9}{6}\times\left(6-2\right)\div\dfrac{5}{3-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{52}{5}$}}
+
+\item $6+7\times\dfrac{8}{3}\div\left(-8-3\right)\div\dfrac{5}{5+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{3326}{825}$}}
+
+\item $9+5\div\dfrac{4}{2}\div\left(-3-2\right)\div\dfrac{1}{5+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{31}{5}$}}
+
+\item $9-6\times\dfrac{3}{2}\div\left(-5-1\right)\div\dfrac{2}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{93}{8}$}}
+
+\item $-5-8\times0.8\div\left(7-1\right)\times\dfrac{3}{5+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-639}{115}$}}
+
+\item $2+1\div1.5\div\left(-7-1\right)\times\dfrac{3}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{107}{56}$}}
+
+\item $3+4\div0.2\times\left(3-2\right)\times\dfrac{2}{2+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{101}{7}$}}
+
+\item $-9-4\div\dfrac{6}{9}\times\left(-3-5\right)\times\dfrac{4}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{293}{3}$}}
+
+\item $7+2\times1.75\times\left(-9+2\right)\times\dfrac{5}{1-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1169}{8}$}}
+
+\item $7-5\times0.75\times\left(3-2\right)\times\dfrac{4}{1-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-23$}}
+
+\item $4+4\div0.2\times\left(-4+2\right)\times\dfrac{1}{2-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-148}{3}$}}
+
+\item $5+2\div0.2\times\left(-1-2\right)\div\dfrac{4}{3+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-185}{8}$}}
+
+\item $9+4\div\dfrac{2}{6}\div\left(-6+2\right)\div\dfrac{4}{4-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{105}{16}$}}
+
+\item $1-4\div0.25\div\left(8-3\right)\times\dfrac{4}{1+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-57}{7}$}}
+
+\item $9+5\div0.8\div\left(-7+3\right)\div\dfrac{3}{4+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{161}{24}$}}
+
+\item $-8-7\div\dfrac{8}{6}\times\left(3-2\right)\div\dfrac{5}{3+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-191}{16}$}}
+
+\item $-3+7\times\dfrac{5}{2}\div\left(-6-2\right)\times\dfrac{4}{2-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-271}{32}$}}
+
+\item $-9-3\times1.5\times\left(-8-2\right)\div\dfrac{5}{5+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{216}{5}$}}
+
+\item $-5+3\times1.25\times\left(-6-2\right)\times\dfrac{1}{1-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $-45$}}
+
+\item $-2+3\div\dfrac{8}{4}\times\left(-8+2\right)\times\dfrac{1}{1-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-49}{2}$}}
+
+\item $9+5\div\dfrac{9}{5}\times\left(-5+1\right)\div\dfrac{4}{5+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-113}{18}$}}
+
+\item $2-3\times1.25\times\left(-4-2\right)\times\dfrac{2}{5+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{26}{3}$}}
+
+\item $-6+1\times\dfrac{9}{8}\div\left(-1+2\right)\div\dfrac{3}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-51}{10}$}}
+
+\item $0+1\times1.75\times\left(0-2\right)\div\dfrac{2}{1+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-49}{16}$}}
+
+\item $2+7\times0.6\div\left(0-2\right)\div\dfrac{1}{4+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-319}{40}$}}
+
+\item $2-4\div1.5\div\left(6-3\right)\div\dfrac{3}{3+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{28}{27}$}}
+
+\item $9+4\times0.2\times\left(1+3\right)\times\dfrac{1}{2-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{379}{35}$}}
+
+\item $5-8\times0.4\times\left(-4-1\right)\div\dfrac{4}{1+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $11$}}
+
+\item $-2-7\div0.75\div\left(-5+3\right)\times\dfrac{3}{2-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{22}{3}$}}
+
+\item $-5+9\div\dfrac{2}{5}\div\left(8-3\right)\times\dfrac{1}{1+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-7}{5}$}}
+
+\item $-6-6\times\dfrac{2}{3}\times\left(-2+1\right)\div\dfrac{4}{1-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-25}{4}$}}
+
+\item $-2-2\times\dfrac{2}{3}\div\left(5-3\right)\div\dfrac{5}{4+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-27}{10}$}}
+
+\item $5+8\div0.8\div\left(-8+2\right)\times\dfrac{2}{1+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{65}{21}$}}
+
+\item $8+8\div\dfrac{6}{2}\div\left(-2+1\right)\div\dfrac{3}{5-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{34}{9}$}}
+
+\item $6-5\times\dfrac{7}{5}\times\left(4+2\right)\times\dfrac{3}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-81}{4}$}}
+
+\item $-2+5\times\dfrac{4}{9}\div\left(4+3\right)\div\dfrac{2}{3-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-31}{18}$}}
+
+\item $1+6\times0.8\div\left(-7-3\right)\div\dfrac{1}{2-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{19}{25}$}}
+
+\item $6-8\div0.5\times\left(-1+3\right)\div\dfrac{4}{4-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $-22$}}
+
+\item $-4-4\times0.5\div\left(-3-2\right)\times\dfrac{2}{1-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-4}{5}$}}
+
+\item $1+6\div0.4\div\left(-5-1\right)\times\dfrac{2}{3-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-11}{9}$}}
+
+\item $-9+7\div0.75\div\left(2-3\right)\times\dfrac{2}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-43}{3}$}}
+
+\item $-4+8\times1.5\times\left(4-3\right)\div\dfrac{3}{1-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-16}{5}$}}
+
+\item $6+3\div0.8\times\left(7-2\right)\times\dfrac{1}{5+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1047}{112}$}}
+
+\item $7+9\times0.4\times\left(0+3\right)\div\dfrac{3}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{481}{25}$}}
+
+\item $5+8\times\dfrac{7}{8}\div\left(5+3\right)\times\dfrac{3}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{355}{64}$}}
+
+\item $-4-1\times\dfrac{9}{4}\div\left(-5-3\right)\div\dfrac{3}{2-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-613}{160}$}}
+
+\item $-6+1\times0.6\times\left(-7+2\right)\times\dfrac{3}{2+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-102}{11}$}}
+
+\item $6+5\times\dfrac{5}{2}\div\left(0-3\right)\div\dfrac{2}{5+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-17}{3}$}}
+
+\item $2+6\times0.8\div\left(-2-3\right)\times\dfrac{2}{3-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{58}{125}$}}
+
+\item $-9+5\times0.75\div\left(2+2\right)\times\dfrac{3}{3+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2511}{304}$}}
+
+\item $3+9\times\dfrac{6}{2}\div\left(-4-3\right)\times\dfrac{4}{2-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-51}{7}$}}
+
+\item $-9+9\div\dfrac{6}{8}\div\left(-4-2\right)\div\dfrac{1}{4+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-87}{5}$}}
+
+\item $3+6\times\dfrac{3}{4}\times\left(3-1\right)\times\dfrac{2}{2-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $15$}}
+
+\item $-5-8\times\dfrac{9}{8}\times\left(5-2\right)\div\dfrac{4}{1+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-121}{8}$}}
+
+\item $1+3\times\dfrac{6}{2}\div\left(1+2\right)\times\dfrac{1}{3+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{29}{17}$}}
+
+\item $6+6\div0.5\div\left(-3-2\right)\times\dfrac{4}{3+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{58}{15}$}}
+
+\item $1+2\div1.25\div\left(-2+1\right)\div\dfrac{4}{2+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $0$}}
+
+\item $-3-6\div0.75\times\left(5+1\right)\times\dfrac{2}{4+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-181}{7}$}}
+
+\item $8-3\div0.75\div\left(7+2\right)\div\dfrac{3}{1+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{352}{45}$}}
+
+\item $-8-8\div\dfrac{6}{7}\times\left(-7-1\right)\div\dfrac{2}{5+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $188$}}
+
+\item $-1+5\div0.8\times\left(-5+2\right)\div\dfrac{1}{3-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $-51$}}
+
+\item $-6-6\div\dfrac{8}{3}\times\left(-3-2\right)\times\dfrac{4}{1-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $54$}}
+
+\item $3+7\times1.75\times\left(7-1\right)\div\dfrac{1}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{897}{5}$}}
+
+\item $0-5\div\dfrac{6}{9}\div\left(0-3\right)\times\dfrac{1}{1+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{25}{16}$}}
+
+\item $6-3\times\dfrac{5}{3}\div\left(-3-2\right)\div\dfrac{4}{1+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{63}{10}$}}
+
+\item $-9+4\div0.2\times\left(-8+2\right)\times\dfrac{4}{4+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-863}{7}$}}
+
+\item $-7+1\div\dfrac{2}{6}\times\left(9+1\right)\div\dfrac{4}{1-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-11}{2}$}}
+
+\item $9+5\div\dfrac{6}{2}\times\left(-1+3\right)\times\dfrac{3}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{52}{3}$}}
+
+\item $3-7\times\dfrac{9}{3}\div\left(-2+3\right)\times\dfrac{2}{1+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-93}{4}$}}
+
+\item $2+7\times0.75\times\left(0+3\right)\times\dfrac{3}{5-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1121}{88}$}}
+
+\item $-4+6\times0.25\div\left(-7-1\right)\div\dfrac{1}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-187}{40}$}}
+
+\item $-6-5\div\dfrac{2}{4}\div\left(3-1\right)\times\dfrac{3}{3-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-12$}}
+
+\item $1+1\div0.2\div\left(2-1\right)\div\dfrac{1}{5-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{89}{4}$}}
+
+\item $5-1\div1.25\times\left(0+2\right)\div\dfrac{4}{2+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{103}{25}$}}
+
+\item $8-2\times\dfrac{9}{8}\times\left(-6+3\right)\times\dfrac{4}{5+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{217}{17}$}}
+
+\item $-3+1\div1.75\div\left(-7+1\right)\times\dfrac{3}{1-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-26}{7}$}}
+
+\item $0-6\div\dfrac{6}{3}\div\left(-1+2\right)\times\dfrac{4}{2-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-36}{5}$}}
+
+\item $5-8\div\dfrac{9}{6}\times\left(0-1\right)\times\dfrac{2}{5-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{505}{69}$}}
+
+\item $8-5\div\dfrac{6}{9}\div\left(6+1\right)\times\dfrac{1}{5+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{494}{63}$}}
+
+\item $-7-7\times\dfrac{7}{8}\div\left(-1+8\right)\times\dfrac{4}{4+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-23}{3}$}}
+
+\item $-2-5\times\dfrac{7}{3}\times\left(1-2\right)\div\dfrac{4}{3-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{73}{16}$}}
+
+\item $3-2\div1.25\times\left(-9+3\right)\div\dfrac{1}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{651}{25}$}}
+
+\item $-9-9\div0.5\times\left(5-2\right)\times\dfrac{4}{5+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-531}{11}$}}
+
+\item $-2-3\times\dfrac{9}{2}\div\left(-9+3\right)\times\dfrac{2}{3+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-5}{7}$}}
+
+\item $6-1\times\dfrac{4}{7}\div\left(5+2\right)\div\dfrac{5}{3+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{7274}{1225}$}}
+
+\item $-4-4\times\dfrac{9}{5}\times\left(8-1\right)\times\dfrac{1}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-46$}}
+
+\item $1+9\times\dfrac{7}{6}\times\left(4+1\right)\div\dfrac{5}{5+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{619}{10}$}}
+
+\item $2+6\times\dfrac{4}{7}\div\left(7+1\right)\div\dfrac{1}{2+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{83}{28}$}}
+
+\item $6-6\div\dfrac{2}{5}\times\left(-8+2\right)\times\dfrac{5}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $256$}}
+
+\item $-6+5\div0.2\div\left(-3+6\right)\div\dfrac{2}{4+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{23}{2}$}}
+
+\item $7+4\times0.6\div\left(8+1\right)\div\dfrac{1}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{207}{25}$}}
+
+\item $4-1\div\dfrac{3}{9}\times\left(-9-1\right)\times\dfrac{5}{5+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{344}{11}$}}
+
+\item $-5+1\div\dfrac{3}{9}\times\left(1+1\right)\div\dfrac{1}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-19}{5}$}}
+
+\item $8+1\div\dfrac{5}{2}\times\left(-9-1\right)\times\dfrac{5}{1+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-16}{3}$}}
+
+\item $-8-2\div\dfrac{6}{9}\times\left(8+2\right)\div\dfrac{5}{5-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-172}{5}$}}
+
+\item $1-2\times0.8\times\left(0+2\right)\div\dfrac{1}{5-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-51}{5}$}}
+
+\item $-9+8\times\dfrac{7}{5}\div\left(7+1\right)\times\dfrac{2}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-47}{6}$}}
+
+\item $2-7\div\dfrac{6}{8}\div\left(-6+1\right)\div\dfrac{5}{2+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1114}{375}$}}
+
+\item $-9-9\div1.75\div\left(-3-1\right)\div\dfrac{1}{5+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-81}{35}$}}
+
+\item $3+7\times0.6\times\left(3+2\right)\times\dfrac{2}{1-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $66$}}
+
+\item $9-2\times\dfrac{4}{9}\times\left(8+3\right)\times\dfrac{5}{5-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-383}{153}$}}
+
+\item $0-3\div0.25\div\left(8+1\right)\div\dfrac{5}{5-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-88}{75}$}}
+
+\item $-9+8\times\dfrac{2}{3}\div\left(-4+3\right)\times\dfrac{1}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-229}{21}$}}
+
+\item $0+1\times0.8\times\left(1+2\right)\div\dfrac{4}{3+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{11}{5}$}}
+
+\item $3-6\times0.25\div\left(-1+2\right)\times\dfrac{2}{4+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{19}{8}$}}
+
+\item $2-4\times0.75\div\left(6+2\right)\times\dfrac{4}{2-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{13}{14}$}}
+
+\item $7-2\div1.75\times\left(0+3\right)\div\dfrac{1}{3+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-187}{35}$}}
+
+\item $-2-1\div\dfrac{5}{2}\div\left(-5-2\right)\div\dfrac{5}{3-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1034}{525}$}}
+
+\item $6-5\times\dfrac{7}{8}\div\left(2+2\right)\times\dfrac{2}{2-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{109}{24}$}}
+
+\item $2-8\times\dfrac{9}{2}\div\left(-4-2\right)\times\dfrac{2}{4-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{58}{11}$}}
+
+\item $-9+8\times\dfrac{4}{8}\div\left(6+2\right)\div\dfrac{5}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-441}{50}$}}
+
+\item $7+8\times\dfrac{8}{9}\times\left(-9-3\right)\div\dfrac{5}{1-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-81}{25}$}}
+
+\item $9-2\times\dfrac{4}{9}\times\left(-4-1\right)\div\dfrac{5}{3-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{493}{45}$}}
+
+\item $7+2\times0.75\div\left(5+3\right)\times\dfrac{3}{2-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{149}{20}$}}
+
+\item $-6-2\times0.75\div\left(4-1\right)\times\dfrac{3}{3+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-32}{5}$}}
+
+\item $-1+8\div0.5\div\left(9+3\right)\times\dfrac{4}{4-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{11}{21}$}}
+
+\item $-7+6\div\dfrac{4}{7}\div\left(-7-3\right)\div\dfrac{3}{2+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-133}{16}$}}
+
+\item $5-9\div0.4\div\left(-4+2\right)\div\dfrac{4}{1-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{49}{8}$}}
+
+\item $6-2\div0.2\times\left(6+2\right)\div\dfrac{4}{3-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-122}{3}$}}
+
+\item $5-8\times0.2\div\left(5+2\right)\div\dfrac{1}{1+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{157}{35}$}}
+
+\item $4-7\div\dfrac{6}{9}\div\left(1+2\right)\times\dfrac{4}{1+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-22}{5}$}}
+
+\item $-8-8\times\dfrac{9}{7}\div\left(6+2\right)\times\dfrac{1}{1-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-74}{7}$}}
+
+\item $-3-4\times\dfrac{4}{8}\times\left(-7+1\right)\times\dfrac{1}{4+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1}{3}$}}
+
+\item $-1-5\div\dfrac{9}{5}\times\left(-6-2\right)\div\dfrac{5}{2+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{101}{9}$}}
+
+\item $7+7\div\dfrac{5}{9}\div\left(-6+3\right)\times\dfrac{4}{2+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{49}{55}$}}
+
+\item $9+1\div1.5\div\left(-7-3\right)\div\dfrac{1}{4+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{517}{60}$}}
+
+\item $0+1\times\dfrac{3}{4}\times\left(4+2\right)\times\dfrac{3}{5-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{54}{17}$}}
+
+\item $-5-3\times\dfrac{2}{4}\times\left(9+2\right)\times\dfrac{4}{5+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-235}{14}$}}
+
+\item $-5-7\times\dfrac{4}{3}\times\left(7-2\right)\times\dfrac{1}{3+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-415}{27}$}}
+
+\item $-6-8\times\dfrac{6}{5}\div\left(-2-1\right)\div\dfrac{1}{4-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $6$}}
+
+\item $2+6\div\dfrac{4}{5}\times\left(4+2\right)\div\dfrac{2}{3+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{601}{8}$}}
+
+\item $1-4\div0.6\div\left(9+1\right)\times\dfrac{2}{4-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{13}{21}$}}
+
+\item $8+9\div\dfrac{6}{8}\div\left(3+1\right)\div\dfrac{4}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{85}{8}$}}
+
+\item $6-4\div0.75\times\left(0-3\right)\div\dfrac{2}{5-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $42$}}
+
+\item $8-4\times\dfrac{3}{8}\times\left(1-2\right)\times\dfrac{2}{4-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{89}{10}$}}
+
+\item $-1+2\div\dfrac{6}{7}\times\left(2+3\right)\times\dfrac{5}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{67}{3}$}}
+
+\item $6-6\times0.25\div\left(0+2\right)\div\dfrac{3}{2+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{83}{16}$}}
+
+\item $9-7\times1.25\times\left(0-2\right)\times\dfrac{5}{5+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $23$}}
+
+\item $-2+2\times\dfrac{5}{7}\times\left(3+3\right)\times\dfrac{2}{1-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{136}{7}$}}
+
+\item $4-1\div\dfrac{2}{9}\div\left(3-2\right)\div\dfrac{2}{3+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-49}{8}$}}
+
+\item $9+9\times\dfrac{5}{8}\times\left(-7-1\right)\times\dfrac{5}{3-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-612}{7}$}}
+
+\item $-6-7\times\dfrac{5}{4}\times\left(-7-2\right)\div\dfrac{5}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{381}{10}$}}
+
+\item $-2-4\div\dfrac{3}{7}\times\left(-1-2\right)\div\dfrac{1}{3-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{218}{3}$}}
+
+\item $-4+8\div1.25\times\left(-7-2\right)\times\dfrac{1}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-332}{11}$}}
+
+\item $4-8\times\dfrac{9}{4}\div\left(5+3\right)\div\dfrac{5}{2-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{151}{40}$}}
+
+\item $4-4\times0.6\times\left(9-2\right)\div\dfrac{5}{3+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-208}{25}$}}
+
+\item $5+9\div\dfrac{4}{3}\div\left(-6+2\right)\div\dfrac{3}{4+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{193}{80}$}}
+
+\item $-8+4\times0.4\times\left(-3-2\right)\div\dfrac{1}{1+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-18$}}
+
+\item $7+9\div\dfrac{3}{6}\div\left(8-3\right)\times\dfrac{5}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{79}{7}$}}
+
+\item $6+6\div1.5\div\left(7+3\right)\div\dfrac{2}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{162}{25}$}}
+
+\item $3+7\times\dfrac{2}{3}\div\left(9-3\right)\div\dfrac{4}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{565}{144}$}}
+
+\item $1+9\times0.25\times\left(-4+3\right)\times\dfrac{3}{2+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-29}{16}$}}
+
+\item $5+2\times\dfrac{9}{2}\times\left(-9+3\right)\times\dfrac{4}{2+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-809}{11}$}}
+
+\item $-6-8\times0.2\div\left(9+1\right)\times\dfrac{4}{4-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2314}{375}$}}
+
+\item $-1-2\times0.2\times\left(4-2\right)\div\dfrac{5}{5-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-42}{25}$}}
+
+\item $-3+7\times\dfrac{7}{4}\times\left(-3+1\right)\times\dfrac{4}{1+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-309}{5}$}}
+
+\item $-1+6\div\dfrac{7}{6}\times\left(2-2\right)\div\dfrac{1}{5-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-1$}}
+
+\item $9-8\div\dfrac{5}{2}\div\left(-5+2\right)\div\dfrac{3}{5+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2441}{225}$}}
+
+\item $7+6\div0.75\div\left(9-1\right)\times\dfrac{2}{4+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{81}{11}$}}
+
+\item $-2+6\div\dfrac{2}{8}\times\left(7+1\right)\times\dfrac{3}{2-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $358$}}
+
+\item $-3+6\times\dfrac{4}{5}\div\left(-3-5\right)\times\dfrac{3}{2+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-15}{4}$}}
+
+\item $1-5\times0.6\times\left(7-3\right)\times\dfrac{2}{2+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-53}{7}$}}
+
+\item $7+9\div\dfrac{7}{5}\div\left(-1+7\right)\times\dfrac{4}{1+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{67}{7}$}}
+
+\item $9-2\div1.25\div\left(-8-3\right)\div\dfrac{3}{4+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2539}{275}$}}
+
+\item $-3-1\div\dfrac{5}{7}\div\left(-6+2\right)\div\dfrac{1}{3-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-163}{80}$}}
+
+\item $-4+5\div1.5\div\left(-9-1\right)\div\dfrac{2}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-71}{15}$}}
+
+\item $-8+1\times\dfrac{7}{5}\div\left(4-3\right)\div\dfrac{5}{1-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-393}{50}$}}
+
+\item $8-4\div1.25\div\left(-2-3\right)\times\dfrac{5}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $9$}}
+
+\item $3-7\times0.4\times\left(-3-1\right)\div\dfrac{1}{3+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{211}{5}$}}
+
+\item $-5+5\times1.75\times\left(6+3\right)\times\dfrac{3}{5-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{850}{19}$}}
+
+\item $5+8\times0.6\div\left(-2+4\right)\div\dfrac{4}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{128}{25}$}}
+
+\item $9+4\div\dfrac{7}{9}\times\left(6+3\right)\div\dfrac{1}{1+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{954}{7}$}}
+
+\item $5+5\times\dfrac{9}{4}\times\left(9+3\right)\times\dfrac{1}{2+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{740}{13}$}}
+
+\item $8-1\times1.75\times\left(-6-1\right)\times\dfrac{5}{2+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{239}{8}$}}
+
+\item $2+2\times\dfrac{3}{2}\times\left(9-2\right)\div\dfrac{2}{5-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{461}{10}$}}
+
+\item $0+7\div\dfrac{8}{6}\div\left(-1-2\right)\times\dfrac{3}{4+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-9}{8}$}}
+
+\item $7-9\times0.5\times\left(-5-3\right)\times\dfrac{5}{5-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{811}{13}$}}
+
+\item $0+8\div0.25\div\left(-8-1\right)\times\dfrac{2}{1+\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-128}{27}$}}
+
+\item $-3-8\div\dfrac{2}{4}\times\left(-6+2\right)\div\dfrac{4}{4+0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $73$}}
+
+\item $9+2\times0.2\times\left(4+1\right)\times\dfrac{1}{1-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{35}{3}$}}
+
+\item $0+6\times1.5\div\left(-2-3\right)\div\dfrac{5}{2-\dfrac{\displaystyle2}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-27}{50}$}}
+
+\item $-8-4\div\dfrac{5}{8}\div\left(8-3\right)\times\dfrac{2}{2+\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-584}{65}$}}
+
+\item $0+9\div\dfrac{8}{5}\div\left(-9+2\right)\div\dfrac{5}{4-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-117}{224}$}}
+
+\item $6+8\times1.5\times\left(-8-2\right)\times\dfrac{4}{5+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-894}{11}$}}
+
+\item $6-2\times\dfrac{9}{7}\times\left(9+2\right)\div\dfrac{4}{5+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-2451}{70}$}}
+
+\item $4+3\div0.25\div\left(8-3\right)\div\dfrac{1}{3+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{328}{25}$}}
+
+\item $-7-4\times\dfrac{5}{8}\times\left(4+2\right)\div\dfrac{3}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-39}{2}$}}
+
+\item $-3-4\div0.2\times\left(2+3\right)\div\dfrac{2}{3+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-481}{2}$}}
+
+\item $8-4\times1.75\times\left(2+3\right)\div\dfrac{3}{5-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $-48$}}
+
+\item $-2+8\div\dfrac{2}{7}\div\left(-7-3\right)\div\dfrac{4}{4+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-247}{50}$}}
+
+\item $-4-9\times0.5\div\left(8-2\right)\times\dfrac{2}{1-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-31}{4}$}}
+
+\item $-7+7\times0.4\div\left(6-2\right)\times\dfrac{1}{5-0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-315}{46}$}}
+
+\item $1-6\div\dfrac{6}{4}\div\left(6+1\right)\times\dfrac{2}{2-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{9}{49}$}}
+
+\item $2-1\times\dfrac{8}{9}\div\left(-2-3\right)\div\dfrac{1}{4-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{118}{45}$}}
+
+\item $6+5\times\dfrac{8}{2}\div\left(-1-4\right)\div\dfrac{3}{5+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $-1$}}
+
+\item $-7-9\div0.4\div\left(1+2\right)\times\dfrac{4}{3-\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-73}{4}$}}
+
+\item $8+9\times\dfrac{8}{2}\div\left(-7-2\right)\times\dfrac{3}{3-0.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{8}{3}$}}
+
+\item $-2-8\times0.2\div\left(-9-1\right)\div\dfrac{3}{4-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-136}{75}$}}
+
+\item $-6+3\times0.6\times\left(-3-7\right)\div\dfrac{5}{2+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-141}{10}$}}
+
+\item $-3+7\times1.5\div\left(-5-1\right)\div\dfrac{1}{4-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-179}{20}$}}
+
+\item $8+9\div\dfrac{2}{6}\div\left(1+3\right)\div\dfrac{2}{3+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{833}{40}$}}
+
+\item $-8+3\times0.6\times\left(4+3\right)\times\dfrac{5}{1+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $34$}}
+
+\item $-7+2\div\dfrac{3}{8}\times\left(3-3\right)\times\dfrac{4}{2-0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $-7$}}
+
+\item $-6-4\times0.5\times\left(-6+2\right)\times\dfrac{4}{4-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{34}{5}$}}
+
+\item $-6-9\div0.75\div\left(7+2\right)\times\dfrac{1}{4-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-326}{51}$}}
+
+\item $-8-4\div1.25\div\left(6+3\right)\div\dfrac{3}{1+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-5528}{675}$}}
+
+\item $2-3\div0.6\div\left(9+3\right)\div\dfrac{5}{5+0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{91}{60}$}}
+
+\item $1+2\div\dfrac{9}{5}\times\left(-9-1\right)\times\dfrac{3}{3+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-89}{11}$}}
+
+\item $4-9\times1.75\times\left(3+3\right)\div\dfrac{4}{1+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-283}{8}$}}
+
+\item $-2+9\div\dfrac{4}{8}\times\left(-4-1\right)\times\dfrac{3}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-227$}}
+
+\item $0-5\div0.75\div\left(8+2\right)\div\dfrac{5}{4+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-11}{15}$}}
+
+\item $0+9\times0.5\div\left(6+1\right)\div\dfrac{4}{1-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-9}{224}$}}
+
+\item $1+4\div\dfrac{6}{3}\times\left(-7+1\right)\div\dfrac{4}{5-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-64}{5}$}}
+
+\item $7-5\times0.75\div\left(-7-2\right)\times\dfrac{4}{2-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{167}{21}$}}
+
+\item $-1+7\times\dfrac{2}{3}\div\left(-4+2\right)\div\dfrac{1}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-92}{15}$}}
+
+\item $9-1\div1.25\div\left(4-3\right)\div\dfrac{2}{3-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{203}{25}$}}
+
+\item $7+7\div\dfrac{4}{2}\div\left(8+1\right)\times\dfrac{3}{5+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{539}{75}$}}
+
+\item $0+4\div\dfrac{6}{9}\times\left(-4-3\right)\times\dfrac{3}{4-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-315}{8}$}}
+
+\item $7-8\times\dfrac{4}{8}\div\left(9-3\right)\times\dfrac{2}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{221}{33}$}}
+
+\item $7-1\div0.25\times\left(2+2\right)\div\dfrac{5}{4-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-21}{5}$}}
+
+\item $-6-4\div\dfrac{6}{5}\times\left(4-1\right)\times\dfrac{2}{5+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-274}{29}$}}
+
+\item $0-5\div0.5\times\left(6-3\right)\div\dfrac{3}{3-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $-22$}}
+
+\item $-4+2\times\dfrac{9}{3}\div\left(6-2\right)\times\dfrac{3}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-41}{14}$}}
+
+\item $3+7\div\dfrac{5}{4}\times\left(5-3\right)\times\dfrac{5}{4-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{167}{9}$}}
+
+\item $-4+7\div1.5\times\left(-8-2\right)\times\dfrac{5}{4+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-1508}{27}$}}
+
+\item $0+7\div0.2\div\left(-2-1\right)\div\dfrac{5}{4+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-119}{12}$}}
+
+\item $3-6\times0.75\div\left(7-2\right)\times\dfrac{4}{1+\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $1$}}
+
+\item $1-7\times0.2\div\left(-2-1\right)\div\dfrac{3}{1-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{97}{90}$}}
+
+\item $2-2\div0.75\times\left(8-2\right)\times\dfrac{2}{2+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-98}{15}$}}
+
+\item $1-9\times0.6\times\left(5-1\right)\times\dfrac{2}{4-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-263}{25}$}}
+
+\item $-8+3\times0.25\times\left(5-1\right)\times\dfrac{5}{2-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{19}{7}$}}
+
+\item $6+5\div0.8\div\left(-6-3\right)\times\dfrac{3}{5+0.2}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1747}{312}$}}
+
+\item $-2+7\div0.2\div\left(-5-1\right)\div\dfrac{2}{4+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-185}{12}$}}
+
+\item $-8-2\div\dfrac{7}{3}\times\left(8+3\right)\times\dfrac{1}{1-\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-166}{7}$}}
+
+\item $-5-6\div0.5\times\left(6-2\right)\times\dfrac{3}{4+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-343}{11}$}}
+
+\item $0-6\times\dfrac{6}{7}\div\left(2-3\right)\times\dfrac{5}{5-1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{720}{91}$}}
+
+\item $-3-5\div\dfrac{8}{2}\times\left(-4-3\right)\div\dfrac{5}{3-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{6}{5}$}}
+
+\item $4+4\div\dfrac{2}{7}\div\left(8+1\right)\times\dfrac{4}{4+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1052}{207}$}}
+
+\item $2+4\div\dfrac{4}{7}\div\left(8+2\right)\div\dfrac{3}{3+\dfrac{\displaystyle1}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{25}{9}$}}
+
+\item $5-2\div\dfrac{8}{7}\div\left(-3+2\right)\times\dfrac{4}{3+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{120}{17}$}}
+
+\item $-7+1\times0.6\times\left(1-2\right)\div\dfrac{1}{3+\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-46}{5}$}}
+
+\item $-5+5\div0.75\div\left(1+2\right)\div\dfrac{5}{4+0.4}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-137}{45}$}}
+
+\item $-1-8\times\dfrac{7}{9}\div\left(7-1\right)\times\dfrac{2}{4+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-737}{513}$}}
+
+\item $0-5\div0.6\times\left(6+3\right)\div\dfrac{5}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-51$}}
+
+\item $-5+8\times1.25\times\left(9+1\right)\times\dfrac{2}{4-\dfrac{\displaystyle3}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{915}{17}$}}
+
+\item $-7+7\times\dfrac{6}{8}\times\left(-7-1\right)\div\dfrac{2}{3+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-203}{2}$}}
+
+\item $7+4\div\dfrac{6}{5}\times\left(5+1\right)\times\dfrac{5}{2-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{221}{3}$}}
+
+\item $-6+4\div0.6\times\left(-8+2\right)\div\dfrac{5}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-78}{5}$}}
+
+\item $9-6\div1.5\div\left(2-1\right)\times\dfrac{4}{4+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{49}{9}$}}
+
+\item $-8-9\times0.6\div\left(-2-1\right)\times\dfrac{3}{5+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-812}{115}$}}
+
+\item $0+9\div1.25\div\left(-7+1\right)\times\dfrac{2}{5-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-4}{7}$}}
+
+\item $-5-4\div\dfrac{4}{2}\div\left(6+2\right)\div\dfrac{5}{1-0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-201}{40}$}}
+
+\item $-5-1\times\dfrac{4}{3}\times\left(3-2\right)\div\dfrac{1}{3-0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-26}{3}$}}
+
+\item $3+1\times\dfrac{6}{3}\div\left(1+3\right)\times\dfrac{4}{5-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{38}{11}$}}
+
+\item $-2-1\times0.2\times\left(4-2\right)\times\dfrac{1}{2-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-7}{3}$}}
+
+\item $8-1\div\dfrac{7}{6}\div\left(-6+2\right)\times\dfrac{5}{3+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{407}{49}$}}
+
+\item $-6-4\div\dfrac{6}{2}\times\left(-4+1\right)\times\dfrac{4}{2+\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{14}{11}$}}
+
+\item $-9-1\times\dfrac{3}{5}\div\left(-8-1\right)\times\dfrac{3}{3-\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-223}{25}$}}
+
+\item $2+3\div0.2\times\left(-5+3\right)\times\dfrac{2}{2+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-22$}}
+
+\item $9-8\times1.25\times\left(9-1\right)\div\dfrac{1}{4-\dfrac{\displaystyle1}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $-295$}}
+
+\item $-5-8\times0.6\div\left(-2+1\right)\div\dfrac{2}{2+\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{2}{5}$}}
+
+\item $-7+8\times1.5\times\left(-8+1\right)\times\dfrac{1}{5+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-245}{11}$}}
+
+\item $2+9\div0.2\times\left(6-3\right)\div\dfrac{3}{3+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{593}{4}$}}
+
+\item $9+6\times1.75\times\left(6-3\right)\times\dfrac{1}{1+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{459}{16}$}}
+
+\item $0+3\div\dfrac{3}{6}\times\left(8-1\right)\times\dfrac{4}{4+1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $32$}}
+
+\item $-1-9\times1.5\times\left(1+3\right)\times\dfrac{2}{1+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-437}{5}$}}
+
+\item $-6-5\div1.75\div\left(-2+3\right)\div\dfrac{4}{3-1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-99}{14}$}}
+
+\item $-6-6\div\dfrac{2}{6}\times\left(-4-1\right)\div\dfrac{2}{2+\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{471}{4}$}}
+
+\item $-2-3\times\dfrac{5}{6}\times\left(-6-2\right)\times\dfrac{3}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $298$}}
+
+\item $-3+9\times\dfrac{5}{2}\div\left(-2-3\right)\times\dfrac{4}{3-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-105}{11}$}}
+
+\item $-5-9\times\dfrac{9}{4}\times\left(7+2\right)\div\dfrac{3}{3-\dfrac{\displaystyle2}{\displaystyle3}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-587}{4}$}}
+
+\item $-1+2\times\dfrac{5}{6}\times\left(4-1\right)\times\dfrac{3}{3+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{7}{3}$}}
+
+\item $-7+7\times\dfrac{6}{4}\div\left(2+2\right)\times\dfrac{1}{4-1.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-133}{22}$}}
+
+\item $-7-1\div1.5\div\left(-3-2\right)\times\dfrac{4}{2-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-59}{9}$}}
+
+\item $7-1\times\dfrac{4}{8}\div\left(8-1\right)\times\dfrac{1}{2+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{733}{105}$}}
+
+\item $3+5\div\dfrac{6}{8}\div\left(-1+6\right)\div\dfrac{1}{3+\dfrac{\displaystyle2}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{113}{15}$}}
+
+\item $1+4\times\dfrac{9}{4}\times\left(6+2\right)\times\dfrac{4}{2+0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1453}{13}$}}
+
+\item $-8+3\div\dfrac{2}{5}\div\left(-6+1\right)\times\dfrac{2}{4-\dfrac{\displaystyle3}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-116}{13}$}}
+
+\item $6+3\times0.75\div\left(-4-3\right)\div\dfrac{2}{4-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{192}{35}$}}
+
+\item $2-8\div\dfrac{6}{8}\div\left(-5+3\right)\times\dfrac{4}{4-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{26}{3}$}}
+
+\item $-3+3\div0.8\times\left(8+2\right)\times\dfrac{2}{4+0.25}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{249}{17}$}}
+
+\item $-6+5\div1.75\div\left(2-1\right)\div\dfrac{1}{1-\dfrac{\displaystyle4}{\displaystyle5}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-38}{7}$}}
+
+\item $2-8\div0.2\times\left(4+1\right)\div\dfrac{2}{3-0.8}$\\
+\hide{\hideAns}{\fbox{Ans: $-218$}}
+
+\item $9+4\times0.2\div\left(8-2\right)\div\dfrac{4}{4-0.6}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{1367}{150}$}}
+
+\item $-5-9\div\dfrac{8}{4}\times\left(8-3\right)\times\dfrac{5}{1+0.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-80$}}
+
+\item $-7+5\div\dfrac{3}{6}\times\left(-9-2\right)\times\dfrac{4}{1+1.5}$\\
+\hide{\hideAns}{\fbox{Ans: $-183$}}
+
+\item $3-8\div0.2\div\left(-6-3\right)\div\dfrac{5}{2-\dfrac{\displaystyle1}{\displaystyle4}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{41}{9}$}}
+
+\item $-5+9\times\dfrac{2}{4}\times\left(-7+3\right)\div\dfrac{4}{5+\dfrac{\displaystyle1}{\displaystyle2}}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{-119}{4}$}}
+
+\item $-7+8\div0.5\times\left(8-3\right)\times\dfrac{3}{1+1.75}$\\
+\hide{\hideAns}{\fbox{Ans: $\dfrac{883}{11}$}}
+
+\end{enumerate}
+
+
+\end{document}
