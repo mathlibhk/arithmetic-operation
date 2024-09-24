@@ -24,7 +24,7 @@ def qtype1():
     h = random.choice(['+', '-'])
     i = random.randint(1, 3)
     while i==-g:
-        i = random.randint(1, 9)
+        i = random.randint(1, 3)
     j = random.choice(['\\times', '\\div'])
     k = random.randint(1, 5)
     l = random.randint(1, 5)
