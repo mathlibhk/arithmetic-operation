@@ -4,7 +4,7 @@ import ast
 from fractions import Fraction
 
 def qtype1():
-    easy_decimal = [0.2, 0.25, 0.4, 0.5, 0.6, 0.75, 0.8, 1.25, 1.5, 1.75] #[1.2, 1.4, 1.6, 1.8]
+    easy_decimal = [0.2, 0.25, 0.4, 0.5, 0.6, 0.75, 0.8, 1.25, 1.5, 1.75]
     a = random.randint(-9, 9)
     b = random.choice(['+', '-'])
     c = random.randint(1, 9)
